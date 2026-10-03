@@ -297,13 +297,17 @@ export function App() {
                           ? p.ready
                             ? "✓ Ready to play"
                             : "Getting comfortable"
-                          : p.continued
-                            ? "✓ Ready to continue"
-                            : p.voted
-                              ? "✓ Evaluation locked"
-                              : p.submitted
-                                ? "✓ Answer locked"
-                                : "Connected"}
+                          : snapshot.phase === "finished"
+                            ? "✓ Game complete"
+                            : p.continued
+                              ? "✓ Ready to continue"
+                              : p.voted
+                                ? "✓ Evaluation locked"
+                                : p.submitted
+                                  ? "✓ Answer locked"
+                                  : snapshot.phase === "answering"
+                                    ? "Thinking…"
+                                    : "Together in the room"}
                     </span>
                   </div>
                   {p.id === snapshot.hostId && (
@@ -673,98 +677,109 @@ function Lobby({ s, send, busy }: { s: Snapshot; send: Send; busy: boolean }) {
           them.
         </p>
       )}
-      <SectionTitle number="01" title="How will you play?" />
-      <div className="mode-grid">
-        <button
-          disabled={disabled}
-          className={`mode-choice mixed ${s.settings.mode === "mixed" ? "selected" : ""}`}
-          aria-pressed={s.settings.mode === "mixed"}
-          onClick={() => change({ mode: "mixed" })}
-        >
-          <span>✧</span>
-          <div>
-            <strong>Mixed Game</strong>
-            <p>A little of everything. Four modes, one shared adventure.</p>
-          </div>
-          <span className="choice-check">
-            {s.settings.mode === "mixed" ? "✓" : "+"}
-          </span>
-        </button>
-        {MODES.map((mode) => (
-          <button
-            key={mode}
-            disabled={disabled}
-            aria-pressed={s.settings.mode === mode}
-            className={`mode-choice ${s.settings.mode === mode ? "selected" : ""}`}
-            onClick={() => change({ mode })}
-          >
-            <span>{MODE_INFO[mode].symbol}</span>
-            <div>
-              <strong>{MODE_INFO[mode].name}</strong>
-              <p>{MODE_INFO[mode].description}</p>
-            </div>
-          </button>
-        ))}
-      </div>
-      <SectionTitle number="02" title="Find your pace" />
-      <div className="setup-row">
-        <fieldset disabled={disabled}>
-          <legend>Questions</legend>
-          <div className="segmented">
-            {([5, 10, 15, 20] as const).map((count) => (
+      <div className="lobby-body">
+        <section className="lobby-modes" aria-label="Game modes">
+          <SectionTitle number="01" title="How will you play?" />
+          <div className="mode-grid">
+            <button
+              disabled={disabled}
+              className={`mode-choice mixed ${s.settings.mode === "mixed" ? "selected" : ""}`}
+              aria-pressed={s.settings.mode === "mixed"}
+              onClick={() => change({ mode: "mixed" })}
+            >
+              <span>✧</span>
+              <div>
+                <strong>Mixed Game</strong>
+                <p>A little of everything. Four modes, one shared adventure.</p>
+              </div>
+              <span className="choice-check">
+                {s.settings.mode === "mixed" ? "✓" : "+"}
+              </span>
+            </button>
+            {MODES.map((mode) => (
               <button
-                key={count}
-                aria-pressed={s.settings.count === count}
-                onClick={() => change({ count })}
+                key={mode}
+                disabled={disabled}
+                aria-pressed={s.settings.mode === mode}
+                className={`mode-choice ${s.settings.mode === mode ? "selected" : ""}`}
+                onClick={() => change({ mode })}
               >
-                {count}
+                <span>{MODE_INFO[mode].symbol}</span>
+                <div>
+                  <strong>{MODE_INFO[mode].name}</strong>
+                  <p>{MODE_INFO[mode].description}</p>
+                </div>
               </button>
             ))}
           </div>
-        </fieldset>
-        <fieldset disabled={disabled}>
-          <legend>Seconds per answer</legend>
-          <div className="segmented">
-            {([15, 30, 60, 0] as const).map((seconds) => (
+        </section>
+        <section
+          className="lobby-settings"
+          aria-label="Pace and question packs"
+        >
+          <SectionTitle number="02" title="Find your pace" />
+          <div className="setup-row">
+            <fieldset disabled={disabled}>
+              <legend>Questions</legend>
+              <div className="segmented">
+                {([5, 10, 15, 20] as const).map((count) => (
+                  <button
+                    key={count}
+                    aria-pressed={s.settings.count === count}
+                    onClick={() => change({ count })}
+                  >
+                    {count}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+            <fieldset disabled={disabled}>
+              <legend>Seconds per answer</legend>
+              <div className="segmented">
+                {([15, 30, 60, 0] as const).map((seconds) => (
+                  <button
+                    key={seconds}
+                    aria-pressed={s.settings.seconds === seconds}
+                    onClick={() => change({ seconds })}
+                  >
+                    {seconds || "No limit"}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+          </div>
+          <SectionTitle number="03" title="Pick your conversation" />
+          <fieldset className="packs" disabled={disabled}>
+            <legend className="sr-only">Question packs</legend>
+            <button
+              aria-pressed={s.settings.packs.length === 6}
+              onClick={() =>
+                change({
+                  packs: s.settings.packs.length === 6 ? [] : [...PACKS],
+                })
+              }
+            >
+              All packs
+            </button>
+            {PACKS.map((pack) => (
               <button
-                key={seconds}
-                aria-pressed={s.settings.seconds === seconds}
-                onClick={() => change({ seconds })}
+                key={pack}
+                aria-pressed={s.settings.packs.includes(pack)}
+                onClick={() =>
+                  change({
+                    packs: s.settings.packs.includes(pack)
+                      ? s.settings.packs.filter((p) => p !== pack)
+                      : [...s.settings.packs, pack],
+                  })
+                }
               >
-                {seconds || "No limit"}
+                {s.settings.packs.includes(pack) ? "✓ " : ""}
+                {pack}
               </button>
             ))}
-          </div>
-        </fieldset>
+          </fieldset>
+        </section>
       </div>
-      <SectionTitle number="03" title="Pick your conversation" />
-      <fieldset className="packs" disabled={disabled}>
-        <legend className="sr-only">Question packs</legend>
-        <button
-          aria-pressed={s.settings.packs.length === 6}
-          onClick={() =>
-            change({ packs: s.settings.packs.length === 6 ? [] : [...PACKS] })
-          }
-        >
-          All packs
-        </button>
-        {PACKS.map((pack) => (
-          <button
-            key={pack}
-            aria-pressed={s.settings.packs.includes(pack)}
-            onClick={() =>
-              change({
-                packs: s.settings.packs.includes(pack)
-                  ? s.settings.packs.filter((p) => p !== pack)
-                  : [...s.settings.packs, pack],
-              })
-            }
-          >
-            {s.settings.packs.includes(pack) ? "✓ " : ""}
-            {pack}
-          </button>
-        ))}
-      </fieldset>
       <CustomEditor s={s} send={send} disabled={disabled} />
       <div className="availability">
         <span>{s.availability.total} questions available</span>
@@ -1035,7 +1050,7 @@ function Round({
       >
         <span style={{ width: `${(s.round / s.settings.count) * 100}%` }} />
       </div>
-      <div className="mode-ribbon">
+      <div className="mode-ribbon" role="group" aria-label="Current round mode">
         {MODES.map((m) => (
           <span key={m} className={m === q.mode ? "active" : ""}>
             {MODE_INFO[m].symbol} <span>{MODE_INFO[m].name}</span>
@@ -1067,7 +1082,10 @@ function Round({
                 <span>✓</span>
                 <h2>Your answer is locked.</h2>
                 <p>{answerLabel(s.selfId, s.ownAnswer)}</p>
-                <small>Waiting for your partner. No peeking.</small>
+                <small>
+                  Waiting for {partner.label}. Your answers will appear
+                  together.
+                </small>
               </div>
             ) : q.mode === "most_likely" || q.mode === "this_or_that" ? (
               <div className="answer-options">
@@ -1291,29 +1309,31 @@ function Final({
         Your kind of <em>connection.</em>
       </h1>
       <p className="muted">{s.players.map((p) => p.label).join(" & ")}</p>
-      <div className="final-score">
-        <span>Sync score</span>
-        <strong>
-          {s.stats.percent === null
-            ? "No score this time"
-            : `${s.stats.percent}%`}
-        </strong>
-        <p>{s.finalMessage}</p>
-      </div>
-      <div className="stat-grid">
-        <div>
+      <div className="final-summary">
+        <div className="final-score">
+          <span>Sync score</span>
           <strong>
-            {s.stats.points} / {s.stats.complete}
+            {s.stats.percent === null
+              ? "No score this time"
+              : `${s.stats.percent}%`}
           </strong>
-          <span>Shared points / complete rounds</span>
+          <p>{s.finalMessage}</p>
         </div>
-        <div>
-          <strong>{s.stats.incomplete}</strong>
-          <span>Incomplete rounds</span>
-        </div>
-        <div>
-          <strong>{s.stats.skipped}</strong>
-          <span>Skipped together</span>
+        <div className="stat-grid">
+          <div>
+            <strong>
+              {s.stats.points} / {s.stats.complete}
+            </strong>
+            <span>Shared points / complete rounds</span>
+          </div>
+          <div>
+            <strong>{s.stats.incomplete}</strong>
+            <span>Incomplete rounds</span>
+          </div>
+          <div>
+            <strong>{s.stats.skipped}</strong>
+            <span>Skipped together</span>
+          </div>
         </div>
       </div>
       <div className="mode-statistics">
