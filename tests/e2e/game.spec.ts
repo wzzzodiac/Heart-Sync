@@ -158,7 +158,10 @@ test("responsive home, entry, lobby, all four mechanics, final results, replay a
     await a.getByRole("button", { name: "Start our game" }).click();
     const modes = new Set<string>();
     for (let round = 0; round < 5; round++) {
-      await expect(a.locator(".countdown-stage")).not.toBeVisible();
+      // A missing countdown can also mean the next round has not rendered yet.
+      // Wait for the actual answer controls before inspecting the random mode.
+      await expect(a.locator("#answer, .answer-option").first()).toBeVisible();
+      await expect(b.locator("#answer, .answer-option").first()).toBeVisible();
       await expect(a.locator(".question-area h1")).toBeVisible();
       await expect(b.locator(".question-area h1")).toHaveText(
         await a.locator(".question-area h1").innerText(),
@@ -182,7 +185,12 @@ test("responsive home, entry, lobby, all four mechanics, final results, replay a
         await expect(a.locator(".pause-panel")).toBeVisible();
         await captureState(a, "paused");
         await bContext.setOffline(false);
-        await expect(a.locator(".question-area")).toBeVisible();
+        await expect(
+          a.locator("#answer, .answer-option").first(),
+        ).toBeVisible();
+        await expect(
+          b.locator("#answer, .answer-option").first(),
+        ).toBeVisible();
       }
       if (await a.locator("#answer").count()) {
         await Promise.all([
