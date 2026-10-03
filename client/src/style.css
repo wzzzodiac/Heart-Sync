@@ -790,6 +790,20 @@ small {
   margin-top: 28px;
   padding: 10px 0;
 }
+.optional-packs {
+  border-top: 1px solid var(--line);
+  margin-top: 20px;
+  padding-top: 18px;
+}
+.optional-packs legend {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.optional-packs p {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin: 12px 0 0;
+}
 .custom-details summary {
   cursor: pointer;
   font-size: 0.9rem;

@@ -178,5 +178,245 @@
     "mode": "guess_partner",
     "pack": "chaotic",
     "text": "What fictional world would {name} visit for one day?"
+  },
+  {
+    "id": "gp_031",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What tiny inconvenience would make {name} deliver a full courtroom speech?"
+  },
+  {
+    "id": "gp_032",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What completely ordinary task would {name} insist they could win at professionally?"
+  },
+  {
+    "id": "gp_033",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What would {name} be caught muttering to an uncooperative appliance?"
+  },
+  {
+    "id": "gp_034",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What is {name}'s most predictable excuse for staying in on a Friday?"
+  },
+  {
+    "id": "gp_035",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What would the title of a documentary about {name}'s shopping habits be?"
+  },
+  {
+    "id": "gp_036",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What harmless habit of mine would {name} roast first at a comedy night?"
+  },
+  {
+    "id": "gp_037",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What would {name} buy at a supermarket after going in for exactly one item?"
+  },
+  {
+    "id": "gp_038",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What everyday object does {name} lose and then accuse of hiding?"
+  },
+  {
+    "id": "gp_039",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What would {name}'s signature move be in a dance competition nobody trained for?"
+  },
+  {
+    "id": "gp_040",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What would {name} call a luxury perfume inspired by their usual morning?"
+  },
+  {
+    "id": "gp_041",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name} demand first if they became mayor of our living room?"
+  },
+  {
+    "id": "gp_042",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What object would {name} choose to represent humanity at an alien interview?"
+  },
+  {
+    "id": "gp_043",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What ridiculous law would {name} introduce if put in charge of supermarkets?"
+  },
+  {
+    "id": "gp_044",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name} put in an emergency kit for a crisis that does not exist?"
+  },
+  {
+    "id": "gp_045",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name}'s villain origin story be if it started with a minor inconvenience?"
+  },
+  {
+    "id": "gp_046",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name} try to expense after accidentally becoming a secret agent?"
+  },
+  {
+    "id": "gp_047",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name} choose as the official national anthem of our home?"
+  },
+  {
+    "id": "gp_048",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name} ask a talking mirror that only gives sarcastic answers?"
+  },
+  {
+    "id": "gp_049",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name} name a suspiciously powerful duck entrusted to their care?"
+  },
+  {
+    "id": "gp_050",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What would {name} trade for the ability to skip every awkward goodbye?"
+  },
+  {
+    "id": "gp_051",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What compliment from me is most likely to make {name} blush?"
+  },
+  {
+    "id": "gp_052",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What outfit of mine does {name} find most distracting?"
+  },
+  {
+    "id": "gp_053",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What is {name}'s favorite way for me to initiate a kiss?"
+  },
+  {
+    "id": "gp_054",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What kind of flirty message would make {name} grin at their phone?"
+  },
+  {
+    "id": "gp_055",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What song would {name} choose for a slow dance alone with me?"
+  },
+  {
+    "id": "gp_056",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What small gesture tells {name} that a date is about to get more romantic?"
+  },
+  {
+    "id": "gp_057",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What private setting would {name} choose for a long, unhurried kiss?"
+  },
+  {
+    "id": "gp_058",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What is {name}'s tell when they are trying to act innocent while flirting?"
+  },
+  {
+    "id": "gp_059",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What would {name} choose as a playful reward for winning a flirty bet?"
+  },
+  {
+    "id": "gp_060",
+    "mode": "guess_partner",
+    "pack": "spicy",
+    "text": "What ordinary thing I do does {name} find unexpectedly attractive?"
+  },
+  {
+    "id": "gp_061",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What petty inconvenience would {name} inflict on people as a ghost?"
+  },
+  {
+    "id": "gp_062",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What would {name} complain about first in the afterlife?"
+  },
+  {
+    "id": "gp_063",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What last-minute request would {name} make before the fictional end of the world?"
+  },
+  {
+    "id": "gp_064",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What ridiculous sentence would {name} put on their own tombstone?"
+  },
+  {
+    "id": "gp_065",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What would {name} try to negotiate in a contract with the devil?"
+  },
+  {
+    "id": "gp_066",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What song would {name} choose to make their own funeral deeply awkward?"
+  },
+  {
+    "id": "gp_067",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What unfinished task would follow {name} into the afterlife out of pure spite?"
+  },
+  {
+    "id": "gp_068",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What would get {name} fired from a job as the Grim Reaper's assistant?"
+  },
+  {
+    "id": "gp_069",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What would {name} rate humanity out of five stars in a final customer review?"
+  },
+  {
+    "id": "gp_070",
+    "mode": "guess_partner",
+    "pack": "dark_humor",
+    "text": "What minor luxury would {name} refuse to give up even during the apocalypse?"
   }
 ]

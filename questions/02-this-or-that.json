@@ -478,5 +478,645 @@
         "text": "A spaceship with terrible Wi-Fi"
       }
     ]
+  },
+  {
+    "id": "tt_031",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose a minor inconvenience for every date.",
+    "options": [
+      {
+        "id": "a",
+        "text": "One shoe squeaks at every step"
+      },
+      {
+        "id": "b",
+        "text": "Your stomach makes a noise whenever it gets quiet"
+      }
+    ]
+  },
+  {
+    "id": "tt_032",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Which embarrassing talent would you rather reveal at a family dinner?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A flawless imitation of a broken printer"
+      },
+      {
+        "id": "b",
+        "text": "Knowing every word of a terrible advertising jingle"
+      }
+    ]
+  },
+  {
+    "id": "tt_033",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose a relationship dispute to settle on live television.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Who loads the dishwasher worse"
+      },
+      {
+        "id": "b",
+        "text": "Who steals more of the blanket"
+      }
+    ]
+  },
+  {
+    "id": "tt_034",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Pick the soundtrack for your next awkward entrance.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A heroic fanfare"
+      },
+      {
+        "id": "b",
+        "text": "One disappointed trombone"
+      }
+    ]
+  },
+  {
+    "id": "tt_035",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Which would you rather accidentally send to the family group chat?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A dramatic rant about a sandwich"
+      },
+      {
+        "id": "b",
+        "text": "A voice note of you practicing a fake accent"
+      }
+    ]
+  },
+  {
+    "id": "tt_036",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose your punishment for losing a friendly bet.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use a royal title for your partner all evening"
+      },
+      {
+        "id": "b",
+        "text": "Narrate your own chores like a wildlife documentary"
+      }
+    ]
+  },
+  {
+    "id": "tt_037",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Which useless achievement deserves a trophy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Carrying every grocery bag in one trip"
+      },
+      {
+        "id": "b",
+        "text": "Finding the end of the tape on the first attempt"
+      }
+    ]
+  },
+  {
+    "id": "tt_038",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Pick a restaurant with an unfortunate catch.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Perfect food, but the waiter gives motivational speeches"
+      },
+      {
+        "id": "b",
+        "text": "Average food, but your meal arrives on a tiny train"
+      }
+    ]
+  },
+  {
+    "id": "tt_039",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose a mildly cursed morning.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Your alarm calls you by your full name"
+      },
+      {
+        "id": "b",
+        "text": "Your mirror asks whether that is really your outfit"
+      }
+    ]
+  },
+  {
+    "id": "tt_040",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Which habit would you rather have exposed in a documentary about us?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Our conversations with household appliances"
+      },
+      {
+        "id": "b",
+        "text": "How many times we open the fridge without taking anything"
+      }
+    ]
+  },
+  {
+    "id": "tt_041",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose a new rule of gravity in our home.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Socks float to the ceiling"
+      },
+      {
+        "id": "b",
+        "text": "Every dropped spoon lands in another room"
+      }
+    ]
+  },
+  {
+    "id": "tt_042",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose an unexpected responsibility.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Manage a hotel exclusively for ghosts"
+      },
+      {
+        "id": "b",
+        "text": "Run a daycare for retired supervillains"
+      }
+    ]
+  },
+  {
+    "id": "tt_043",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick the condition attached to a free mansion.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A goose inspects every visitor"
+      },
+      {
+        "id": "b",
+        "text": "A brass band announces every delivery"
+      }
+    ]
+  },
+  {
+    "id": "tt_044",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose a replacement for our doorbell.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A tiny opera singer"
+      },
+      {
+        "id": "b",
+        "text": "A voice that says \"The plot thickens\""
+      }
+    ]
+  },
+  {
+    "id": "tt_045",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Which absurd legal obligation would you accept?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Defend every food opinion in a tiny court"
+      },
+      {
+        "id": "b",
+        "text": "File paperwork before making a sarcastic comment"
+      }
+    ]
+  },
+  {
+    "id": "tt_046",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick a magical kitchen problem.",
+    "options": [
+      {
+        "id": "a",
+        "text": "The fridge offers unsolicited relationship advice"
+      },
+      {
+        "id": "b",
+        "text": "The oven refuses to cook without applause"
+      }
+    ]
+  },
+  {
+    "id": "tt_047",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose our transportation for a very formal event.",
+    "options": [
+      {
+        "id": "a",
+        "text": "An enormous shopping cart"
+      },
+      {
+        "id": "b",
+        "text": "A carriage pulled by judgmental capybaras"
+      }
+    ]
+  },
+  {
+    "id": "tt_048",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick the object that suddenly becomes sentient.",
+    "options": [
+      {
+        "id": "a",
+        "text": "The laundry basket that has seen too much"
+      },
+      {
+        "id": "b",
+        "text": "The sofa that remembers every nap"
+      }
+    ]
+  },
+  {
+    "id": "tt_049",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose a strange form of telepathy.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hear your partner's inner theme music"
+      },
+      {
+        "id": "b",
+        "text": "See subtitles for your partner's dreams"
+      }
+    ]
+  },
+  {
+    "id": "tt_050",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Which absurd competition should we enter as a team?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Competitive hiding from responsibilities"
+      },
+      {
+        "id": "b",
+        "text": "Speed-running a badly explained board game"
+      }
+    ]
+  },
+  {
+    "id": "tt_051",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Pick a flirty way to start date night.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A daring compliment whispered at the door"
+      },
+      {
+        "id": "b",
+        "text": "A kiss before either of us says hello"
+      }
+    ]
+  },
+  {
+    "id": "tt_052",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Choose the mood for an evening alone.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Slow music and lingering eye contact"
+      },
+      {
+        "id": "b",
+        "text": "Playful teasing and a ridiculous dare"
+      }
+    ]
+  },
+  {
+    "id": "tt_053",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Which would distract you more across a crowded room?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Your partner mouthing \"later\""
+      },
+      {
+        "id": "b",
+        "text": "Your partner sending a private compliment"
+      }
+    ]
+  },
+  {
+    "id": "tt_054",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Choose a grown-up date-night dress code.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dress up as if we have somewhere glamorous to go"
+      },
+      {
+        "id": "b",
+        "text": "Stay home in whatever makes us feel most attractive"
+      }
+    ]
+  },
+  {
+    "id": "tt_055",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Pick a reward for winning a flirty challenge.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Choose the next kiss location, somewhere private"
+      },
+      {
+        "id": "b",
+        "text": "Receive three very specific compliments"
+      }
+    ]
+  },
+  {
+    "id": "tt_056",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Choose a moment you would happily stretch out.",
+    "options": [
+      {
+        "id": "a",
+        "text": "The anticipation before a kiss"
+      },
+      {
+        "id": "b",
+        "text": "The quiet cuddle afterward"
+      }
+    ]
+  },
+  {
+    "id": "tt_057",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Pick a playful rule for our evening alone.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every compliment must be delivered with eye contact"
+      },
+      {
+        "id": "b",
+        "text": "Every cheesy pickup line earns a kiss if we both want one"
+      }
+    ]
+  },
+  {
+    "id": "tt_058",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Which kind of chemistry gets you first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A confident sense of humor"
+      },
+      {
+        "id": "b",
+        "text": "A voice that makes ordinary sentences sound flirty"
+      }
+    ]
+  },
+  {
+    "id": "tt_059",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Choose a private role-play for a date.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pretend we are meeting for the first time"
+      },
+      {
+        "id": "b",
+        "text": "Pretend we are old flames running into each other"
+      }
+    ]
+  },
+  {
+    "id": "tt_060",
+    "mode": "this_or_that",
+    "pack": "spicy",
+    "text": "Pick a way to say \"you have my attention\".",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pull your partner closer for a dance"
+      },
+      {
+        "id": "b",
+        "text": "Put the phones away and let the silence get interesting"
+      }
+    ]
+  },
+  {
+    "id": "tt_061",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Choose an embarrassing detail in your obituary.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Your screen-time report"
+      },
+      {
+        "id": "b",
+        "text": "Your unfinished online shopping carts"
+      }
+    ]
+  },
+  {
+    "id": "tt_062",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Pick the annoying feature of your afterlife.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mandatory team-building every Monday"
+      },
+      {
+        "id": "b",
+        "text": "Eternal hold music between every conversation"
+      }
+    ]
+  },
+  {
+    "id": "tt_063",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Choose how you would haunt a terrible landlord.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Move every key two centimeters to the left"
+      },
+      {
+        "id": "b",
+        "text": "Make every printer demand a subscription"
+      }
+    ]
+  },
+  {
+    "id": "tt_064",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Pick your final review of existence.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Great snacks, questionable management"
+      },
+      {
+        "id": "b",
+        "text": "Interesting concept, too many mandatory side quests"
+      }
+    ]
+  },
+  {
+    "id": "tt_065",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Choose a budget funeral upgrade.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A smoke machine with terrible timing"
+      },
+      {
+        "id": "b",
+        "text": "A slideshow that accidentally includes memes"
+      }
+    ]
+  },
+  {
+    "id": "tt_066",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Pick your apocalypse notification.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A calendar invite marked \"attendance required\""
+      },
+      {
+        "id": "b",
+        "text": "A software update with no option to postpone"
+      }
+    ]
+  },
+  {
+    "id": "tt_067",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Choose a condition in a deal with the devil.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Great wealth, but every purchase gets narrated aloud"
+      },
+      {
+        "id": "b",
+        "text": "Eternal youth, but everyone assumes you are the intern"
+      }
+    ]
+  },
+  {
+    "id": "tt_068",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Pick your job in the underworld.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Handle complaints from villains who feel misunderstood"
+      },
+      {
+        "id": "b",
+        "text": "Write cheerful marketing copy for eternal misery"
+      }
+    ]
+  },
+  {
+    "id": "tt_069",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Choose a ridiculous cause of your fictional downfall.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trusting the tutorial narrator"
+      },
+      {
+        "id": "b",
+        "text": "Saying \"what is the worst that could happen?\""
+      }
+    ]
+  },
+  {
+    "id": "tt_070",
+    "mode": "this_or_that",
+    "pack": "dark_humor",
+    "text": "Choose the inscription on our imaginary haunted house.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Still arguing about the thermostat"
+      },
+      {
+        "id": "b",
+        "text": "Please leave parcels with the living neighbors"
+      }
+    ]
   }
 ]

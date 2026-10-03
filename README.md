@@ -2,7 +2,7 @@
 
 A private, simultaneous game night for exactly two people. Choose a room code, answer the same question in secret, and discover your shared wavelength. All player-facing copy is in English.
 
-Four modes, 120 editable questions, six packs, optional room questions, and a shared **Sync score**. No accounts, database, chat, analytics, or AI judging. No public room directory or matchmaking. Rank It is not part of V1.
+Four modes, 280 editable questions (70 per mode), six standard packs and two optional packs, optional room questions, and a shared **Sync score**. No accounts, database, chat, analytics, or AI judging. No public room directory or matchmaking. Rank It is not part of V1.
 
 ## Quick start
 
@@ -15,7 +15,7 @@ npm run dev
 
 Open **http://127.0.0.1:5173/** in two separate browser tabs or browser profiles. Create a room in one, copy its code, and join in the other. Enter names, choose settings, mark **Ready** in both, then let the host start. Development uses a frontend on port 5173 and backend on port 3001. No credentials are needed locally.
 
-The default setup is Mixed Game, 10 questions, 30 seconds, all six packs. Choose 5/10/15/20 questions, 15/30/60 seconds or no answer limit. Evaluations always have their own 30-second limit. Everyone answers at once; there are no individual turns.
+The default setup is Mixed Game, 10 questions, 30 seconds, all six standard packs. Spicy (18+) and Dark humor are off by default. Choose 5/10/15/20 questions, 15/30/60 seconds or no answer limit. Evaluations always have their own 30-second limit. Everyone answers at once; there are no individual turns.
 
 For optional overrides, copy `.env.example` to `.env`. Localhost is for testing on the same computer; different devices require a backend and frontend reachable from both devices with matching allowed origins. Production uses HTTPS.
 
@@ -48,6 +48,12 @@ Browser tests use installed Microsoft Edge on Windows. On Linux/macOS first run 
 Guess targets alternate between rounds **of that mode**. Both players still write simultaneously. Answers are locked on submit; drafts are never sent automatically. Reveals happen only after both submissions or the server deadline. Evaluations remain secret until their phase closes. Either player can request Skip, but both must confirm while the answering phase remains open. Both must Continue before the next question.
 
 **Sync score = total shared points from complete rounds ÷ complete rounds × 100**, rounded to the nearest whole percent for display. Missing answers or required evaluations produce an incomplete round, never an invented negative vote. Incomplete and skipped rounds have separate counters and are excluded from the denominator. With no complete rounds the result is **No score this time**. This is entertainment, not a scientific compatibility score or relationship assessment.
+
+## Optional question packs
+
+Choose **Spicy (18+)** for flirty adult questions or **Dark humor** for morbid, fictional dilemmas. Each optional pack adds 40 questions, ten per mode. The host can select either pack independently, combine them with the standard packs, or play only an optional pack. “All standard packs” changes only the six standard selections and preserves any explicitly selected optional packs. Both players see the selection, and changing it resets both Ready states.
+
+New rooms always start with the standard packs only (200 questions). Each optional pack alone supports up to ten rounds in a single mode; select both or add standard packs for longer games. Mixed mode has 40 questions available per optional pack. The lobby shows the actual count and blocks a game if the selection is too small. Room questions remain a separate, host-authored selection.
 
 ## Questions and room questions
 

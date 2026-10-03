@@ -9,7 +9,10 @@ import {
   DEFAULT_SETTINGS,
   MODE_INFO,
   MODES,
-  PACKS,
+  DEFAULT_PACKS,
+  OPTIONAL_PACKS,
+  PACK_LABELS,
+  type Pack,
   type Mode,
   type Question,
   type Settings,
@@ -656,6 +659,15 @@ function Lobby({ s, send, busy }: { s: Snapshot; send: Send; busy: boolean }) {
   const disabled = busy || !host;
   const change = (patch: Partial<Settings>) =>
     void send("settings", { settings: { ...s.settings, ...patch } });
+  const allStandard = DEFAULT_PACKS.every((pack) =>
+    s.settings.packs.includes(pack),
+  );
+  const togglePack = (pack: Pack) =>
+    change({
+      packs: s.settings.packs.includes(pack)
+        ? s.settings.packs.filter((p) => p !== pack)
+        : [...s.settings.packs, pack],
+    });
   return (
     <>
       <div className="eyebrow">THE ROOM IS YOURS</div>
@@ -752,32 +764,54 @@ function Lobby({ s, send, busy }: { s: Snapshot; send: Send; busy: boolean }) {
           <fieldset className="packs" disabled={disabled}>
             <legend className="sr-only">Question packs</legend>
             <button
-              aria-pressed={s.settings.packs.length === 6}
+              aria-pressed={allStandard}
               onClick={() =>
                 change({
-                  packs: s.settings.packs.length === 6 ? [] : [...PACKS],
+                  packs: allStandard
+                    ? s.settings.packs.filter(
+                        (p) =>
+                          !DEFAULT_PACKS.some((standard) => standard === p),
+                      )
+                    : [...new Set([...s.settings.packs, ...DEFAULT_PACKS])],
                 })
               }
             >
-              All packs
+              All standard packs
             </button>
-            {PACKS.map((pack) => (
+            {DEFAULT_PACKS.map((pack) => (
               <button
                 key={pack}
                 aria-pressed={s.settings.packs.includes(pack)}
-                onClick={() =>
-                  change({
-                    packs: s.settings.packs.includes(pack)
-                      ? s.settings.packs.filter((p) => p !== pack)
-                      : [...s.settings.packs, pack],
-                  })
-                }
+                onClick={() => togglePack(pack)}
               >
                 {s.settings.packs.includes(pack) ? "✓ " : ""}
-                {pack}
+                {PACK_LABELS[pack]}
               </button>
             ))}
           </fieldset>
+          <div className="optional-packs">
+            <fieldset
+              className="packs"
+              disabled={disabled}
+              aria-describedby="optional-pack-note"
+            >
+              <legend>Optional packs</legend>
+              {OPTIONAL_PACKS.map((pack) => (
+                <button
+                  key={pack}
+                  aria-pressed={s.settings.packs.includes(pack)}
+                  onClick={() => togglePack(pack)}
+                >
+                  {s.settings.packs.includes(pack) ? "✓ " : ""}
+                  {PACK_LABELS[pack]}
+                </button>
+              ))}
+            </fieldset>
+            <p id="optional-pack-note">
+              Spicy: flirty questions for adults. Dark humor: morbid, fictional
+              dilemmas. Both start off. Choose together before marking Ready.
+            </p>
+          </div>
         </section>
       </div>
       <CustomEditor s={s} send={send} disabled={disabled} />
@@ -1059,7 +1093,7 @@ function Round({
       </div>
       <div className="question-area">
         <div className="eyebrow">
-          {info.symbol} {info.name} <span>· {q.pack}</span>
+          {info.symbol} {info.name} <span>· {PACK_LABELS[q.pack]}</span>
         </div>
         <h1>{q.text}</h1>
         {q.mode === "guess_partner" && (
