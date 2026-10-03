@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ml_001",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to fall asleep halfway through a movie?"
+  },
+  {
+    "id": "ml_002",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to steal fries after saying they are not hungry?"
+  },
+  {
+    "id": "ml_003",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to get lost while confidently giving directions?"
+  },
+  {
+    "id": "ml_004",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to press snooze five times?"
+  },
+  {
+    "id": "ml_005",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to turn a quick shopping trip into a two-hour adventure?"
+  },
+  {
+    "id": "ml_006",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to laugh at their own joke before finishing it?"
+  },
+  {
+    "id": "ml_007",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to win an argument about which movie to watch?"
+  },
+  {
+    "id": "ml_008",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to take twenty photos to get one good picture?"
+  },
+  {
+    "id": "ml_009",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to forget why they walked into a room?"
+  },
+  {
+    "id": "ml_010",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to say \"one more game\" and mean five more games?"
+  },
+  {
+    "id": "ml_011",
+    "mode": "most_likely",
+    "pack": "cute",
+    "text": "Who is more likely to plan a surprise date?"
+  },
+  {
+    "id": "ml_012",
+    "mode": "most_likely",
+    "pack": "cute",
+    "text": "Who is more likely to keep a tiny souvenir from a date?"
+  },
+  {
+    "id": "ml_013",
+    "mode": "most_likely",
+    "pack": "cute",
+    "text": "Who is more likely to notice that the other person needs a hug?"
+  },
+  {
+    "id": "ml_014",
+    "mode": "most_likely",
+    "pack": "cute",
+    "text": "Who is more likely to send a sweet message for no particular reason?"
+  },
+  {
+    "id": "ml_015",
+    "mode": "most_likely",
+    "pack": "cute",
+    "text": "Who is more likely to turn an ordinary evening into a special one?"
+  },
+  {
+    "id": "ml_016",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to become emotionally attached to a robot vacuum?"
+  },
+  {
+    "id": "ml_017",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to try to befriend a suspicious animal?"
+  },
+  {
+    "id": "ml_018",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to accidentally start a kitchen experiment that cannot be reversed?"
+  },
+  {
+    "id": "ml_019",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to survive a zombie outbreak using pure luck?"
+  },
+  {
+    "id": "ml_020",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to buy a ridiculous matching outfit for both of us?"
+  },
+  {
+    "id": "ml_021",
+    "mode": "most_likely",
+    "pack": "memories",
+    "text": "Who is more likely to remember the exact details of our first date?"
+  },
+  {
+    "id": "ml_022",
+    "mode": "most_likely",
+    "pack": "memories",
+    "text": "Who is more likely to remember a funny thing we said months ago?"
+  },
+  {
+    "id": "ml_023",
+    "mode": "most_likely",
+    "pack": "memories",
+    "text": "Who is more likely to recognize a song linked to one of our memories?"
+  },
+  {
+    "id": "ml_024",
+    "mode": "most_likely",
+    "pack": "memories",
+    "text": "Who is more likely to retell one of our embarrassing stories?"
+  },
+  {
+    "id": "ml_025",
+    "mode": "most_likely",
+    "pack": "memories",
+    "text": "Who is more likely to remember what we ordered on a special date?"
+  },
+  {
+    "id": "ml_026",
+    "mode": "most_likely",
+    "pack": "future",
+    "text": "Who is more likely to plan our next trip?"
+  },
+  {
+    "id": "ml_027",
+    "mode": "most_likely",
+    "pack": "future",
+    "text": "Who is more likely to turn a future home into a jungle of houseplants?"
+  },
+  {
+    "id": "ml_028",
+    "mode": "most_likely",
+    "pack": "future",
+    "text": "Who is more likely to research every detail before a big purchase?"
+  },
+  {
+    "id": "ml_029",
+    "mode": "most_likely",
+    "pack": "future",
+    "text": "Who is more likely to suggest a new tradition for us?"
+  },
+  {
+    "id": "ml_030",
+    "mode": "most_likely",
+    "pack": "future",
+    "text": "Who is more likely to convince the other to try a completely new hobby?"
+  }
+]

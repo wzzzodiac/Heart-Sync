@@ -1,0 +1,482 @@
+[
+  {
+    "id": "tt_001",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Pick the setting for our next short getaway.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Beach"
+      },
+      {
+        "id": "b",
+        "text": "Mountains"
+      }
+    ]
+  },
+  {
+    "id": "tt_002",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose tonight's screen entertainment.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A movie"
+      },
+      {
+        "id": "b",
+        "text": "A series"
+      }
+    ]
+  },
+  {
+    "id": "tt_003",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose a meal for a lazy evening together.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pizza"
+      },
+      {
+        "id": "b",
+        "text": "Burgers"
+      }
+    ]
+  },
+  {
+    "id": "tt_004",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Pick our weekend wake-up style.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Early start"
+      },
+      {
+        "id": "b",
+        "text": "Sleep in"
+      }
+    ]
+  },
+  {
+    "id": "tt_005",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose how we explore a new city.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Detailed itinerary"
+      },
+      {
+        "id": "b",
+        "text": "Wander and discover"
+      }
+    ]
+  },
+  {
+    "id": "tt_006",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Pick a game night style.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Work together"
+      },
+      {
+        "id": "b",
+        "text": "Compete against each other"
+      }
+    ]
+  },
+  {
+    "id": "tt_007",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose a holiday base.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Big city"
+      },
+      {
+        "id": "b",
+        "text": "Quiet countryside"
+      }
+    ]
+  },
+  {
+    "id": "tt_008",
+    "mode": "this_or_that",
+    "pack": "fun",
+    "text": "Choose a treat to share.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sweet dessert"
+      },
+      {
+        "id": "b",
+        "text": "Savory snacks"
+      }
+    ]
+  },
+  {
+    "id": "tt_009",
+    "mode": "this_or_that",
+    "pack": "cute",
+    "text": "Choose a simple date.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cook dinner together"
+      },
+      {
+        "id": "b",
+        "text": "Go out for dinner"
+      }
+    ]
+  },
+  {
+    "id": "tt_010",
+    "mode": "this_or_that",
+    "pack": "cute",
+    "text": "Pick an evening with no plans.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Long walk"
+      },
+      {
+        "id": "b",
+        "text": "Blanket and movie"
+      }
+    ]
+  },
+  {
+    "id": "tt_011",
+    "mode": "this_or_that",
+    "pack": "cute",
+    "text": "Choose a small surprise.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Handwritten note"
+      },
+      {
+        "id": "b",
+        "text": "Favorite snack"
+      }
+    ]
+  },
+  {
+    "id": "tt_012",
+    "mode": "this_or_that",
+    "pack": "cute",
+    "text": "Pick the soundtrack for a cozy night.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Soft music"
+      },
+      {
+        "id": "b",
+        "text": "Rain outside"
+      }
+    ]
+  },
+  {
+    "id": "tt_013",
+    "mode": "this_or_that",
+    "pack": "cute",
+    "text": "Choose a shared keepsake.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Photo album"
+      },
+      {
+        "id": "b",
+        "text": "Box of little souvenirs"
+      }
+    ]
+  },
+  {
+    "id": "tt_014",
+    "mode": "this_or_that",
+    "pack": "cute",
+    "text": "Pick a spontaneous date.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sunrise picnic"
+      },
+      {
+        "id": "b",
+        "text": "Midnight dessert run"
+      }
+    ]
+  },
+  {
+    "id": "tt_015",
+    "mode": "this_or_that",
+    "pack": "future",
+    "text": "Choose the location of a dream home.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Near the city"
+      },
+      {
+        "id": "b",
+        "text": "Near nature"
+      }
+    ]
+  },
+  {
+    "id": "tt_016",
+    "mode": "this_or_that",
+    "pack": "future",
+    "text": "Pick a project to start together.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Learn a language"
+      },
+      {
+        "id": "b",
+        "text": "Learn to cook new dishes"
+      }
+    ]
+  },
+  {
+    "id": "tt_017",
+    "mode": "this_or_that",
+    "pack": "future",
+    "text": "Choose how to celebrate a future anniversary.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Return to a favorite place"
+      },
+      {
+        "id": "b",
+        "text": "Try somewhere completely new"
+      }
+    ]
+  },
+  {
+    "id": "tt_018",
+    "mode": "this_or_that",
+    "pack": "future",
+    "text": "Pick a travel pace.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Several short trips"
+      },
+      {
+        "id": "b",
+        "text": "One long trip"
+      }
+    ]
+  },
+  {
+    "id": "tt_019",
+    "mode": "this_or_that",
+    "pack": "future",
+    "text": "Choose a shared weekend ritual.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sunday breakfast outing"
+      },
+      {
+        "id": "b",
+        "text": "Friday night at home"
+      }
+    ]
+  },
+  {
+    "id": "tt_020",
+    "mode": "this_or_that",
+    "pack": "future",
+    "text": "Pick an extra room in a future home.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gaming and movie room"
+      },
+      {
+        "id": "b",
+        "text": "Workshop and creative room"
+      }
+    ]
+  },
+  {
+    "id": "tt_021",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose our inconvenient superpower.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Teleport, but arrive wearing pajamas"
+      },
+      {
+        "id": "b",
+        "text": "Fly, but only at walking speed"
+      }
+    ]
+  },
+  {
+    "id": "tt_022",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick our strange travel companion.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A talking suitcase that complains"
+      },
+      {
+        "id": "b",
+        "text": "A tiny dragon that steals snacks"
+      }
+    ]
+  },
+  {
+    "id": "tt_023",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose one curse for a week.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sing everything you say"
+      },
+      {
+        "id": "b",
+        "text": "Dance every time you enter a room"
+      }
+    ]
+  },
+  {
+    "id": "tt_024",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick our absurd luxury.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A personal chef who only cooks potatoes"
+      },
+      {
+        "id": "b",
+        "text": "A chauffeur who only drives tractors"
+      }
+    ]
+  },
+  {
+    "id": "tt_025",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose a ridiculous shared job.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Professional pillow testers"
+      },
+      {
+        "id": "b",
+        "text": "Theme park villain performers"
+      }
+    ]
+  },
+  {
+    "id": "tt_026",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick a weird pet with a manageable problem.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A cat that narrates our lives"
+      },
+      {
+        "id": "b",
+        "text": "A dog that judges our outfits"
+      }
+    ]
+  },
+  {
+    "id": "tt_027",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose a strange date challenge.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Speak only in movie quotes"
+      },
+      {
+        "id": "b",
+        "text": "Communicate only through drawings"
+      }
+    ]
+  },
+  {
+    "id": "tt_028",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick our silly fame.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Famous for an accidental dance video"
+      },
+      {
+        "id": "b",
+        "text": "Famous for a terrible cooking experiment"
+      }
+    ]
+  },
+  {
+    "id": "tt_029",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Choose a magical inconvenience.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every kiss changes our hair color"
+      },
+      {
+        "id": "b",
+        "text": "Every hug makes nearby lights flicker"
+      }
+    ]
+  },
+  {
+    "id": "tt_030",
+    "mode": "this_or_that",
+    "pack": "chaotic",
+    "text": "Pick an unusual weekend escape.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A castle with dramatic ghosts"
+      },
+      {
+        "id": "b",
+        "text": "A spaceship with terrible Wi-Fi"
+      }
+    ]
+  }
+]
