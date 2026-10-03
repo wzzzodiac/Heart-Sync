@@ -1,0 +1,182 @@
+[
+  {
+    "id": "cm_001",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Pitch a low-budget date that would still feel special."
+  },
+  {
+    "id": "cm_002",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Choose our next movie-night theme and sell me on it."
+  },
+  {
+    "id": "cm_003",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Pick one food we should try together and make your case."
+  },
+  {
+    "id": "cm_004",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Invent a small prize for winning our next game night."
+  },
+  {
+    "id": "cm_005",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Suggest a hobby we could try together this month."
+  },
+  {
+    "id": "cm_006",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Describe a lazy Sunday plan I would find hard to refuse."
+  },
+  {
+    "id": "cm_007",
+    "mode": "convince_me",
+    "pack": "cute",
+    "text": "Propose a tiny daily ritual that would make our days better."
+  },
+  {
+    "id": "cm_008",
+    "mode": "convince_me",
+    "pack": "cute",
+    "text": "Pick an ordinary place and explain how you would turn it into a romantic date."
+  },
+  {
+    "id": "cm_009",
+    "mode": "convince_me",
+    "pack": "cute",
+    "text": "Describe a thoughtful surprise that would cost almost nothing."
+  },
+  {
+    "id": "cm_010",
+    "mode": "convince_me",
+    "pack": "cute",
+    "text": "Give our relationship a silly slogan and explain why it fits."
+  },
+  {
+    "id": "cm_011",
+    "mode": "convince_me",
+    "pack": "cute",
+    "text": "Suggest a way to make a rainy evening together memorable."
+  },
+  {
+    "id": "cm_012",
+    "mode": "convince_me",
+    "pack": "cute",
+    "text": "Pitch a new way for us to celebrate small achievements."
+  },
+  {
+    "id": "cm_013",
+    "mode": "convince_me",
+    "pack": "deep",
+    "text": "Propose one simple rule for handling disagreements kindly."
+  },
+  {
+    "id": "cm_014",
+    "mode": "convince_me",
+    "pack": "deep",
+    "text": "Suggest a small way we could support each other during a busy week."
+  },
+  {
+    "id": "cm_015",
+    "mode": "convince_me",
+    "pack": "deep",
+    "text": "Pick one relationship habit worth protecting and explain why."
+  },
+  {
+    "id": "cm_016",
+    "mode": "convince_me",
+    "pack": "deep",
+    "text": "Suggest a way we could balance time together with time for ourselves."
+  },
+  {
+    "id": "cm_017",
+    "mode": "convince_me",
+    "pack": "deep",
+    "text": "Propose a simple way to ask for help without feeling awkward."
+  },
+  {
+    "id": "cm_018",
+    "mode": "convince_me",
+    "pack": "deep",
+    "text": "Explain one benefit of trying something together even if we are both bad at it."
+  },
+  {
+    "id": "cm_019",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Pitch the worst business idea that we would still have fun running together."
+  },
+  {
+    "id": "cm_020",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Convince me that we need a completely unnecessary gadget."
+  },
+  {
+    "id": "cm_021",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Invent a ridiculous holiday and explain how we would celebrate it."
+  },
+  {
+    "id": "cm_022",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Give us a fake superhero team name and pitch our useless powers."
+  },
+  {
+    "id": "cm_023",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Suggest one harmless household rule that would make life more absurd."
+  },
+  {
+    "id": "cm_024",
+    "mode": "convince_me",
+    "pack": "memories",
+    "text": "Choose one shared memory we should recreate and explain why."
+  },
+  {
+    "id": "cm_025",
+    "mode": "convince_me",
+    "pack": "memories",
+    "text": "Pick a photo of us that deserves to be framed and describe it."
+  },
+  {
+    "id": "cm_026",
+    "mode": "convince_me",
+    "pack": "memories",
+    "text": "Choose a place we have visited that deserves a second trip."
+  },
+  {
+    "id": "cm_027",
+    "mode": "convince_me",
+    "pack": "future",
+    "text": "Pitch a destination for a future trip in three sentences or fewer."
+  },
+  {
+    "id": "cm_028",
+    "mode": "convince_me",
+    "pack": "future",
+    "text": "Suggest a skill we should learn together before living together."
+  },
+  {
+    "id": "cm_029",
+    "mode": "convince_me",
+    "pack": "future",
+    "text": "Propose a new tradition for future anniversaries."
+  },
+  {
+    "id": "cm_030",
+    "mode": "convince_me",
+    "pack": "future",
+    "text": "Choose one shared goal for the next year and explain why it matters."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "gp_001",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What meal would {name} choose after a long, tiring day?"
+  },
+  {
+    "id": "gp_002",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What is {name}'s ideal way to spend a completely free afternoon?"
+  },
+  {
+    "id": "gp_003",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What movie or series could {name} happily watch again?"
+  },
+  {
+    "id": "gp_004",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What snack would {name} secretly hope you brought home?"
+  },
+  {
+    "id": "gp_005",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What kind of game would {name} choose for a game night?"
+  },
+  {
+    "id": "gp_006",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What household chore would {name} most gladly outsource?"
+  },
+  {
+    "id": "gp_007",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What song would {name} pick to improve their mood?"
+  },
+  {
+    "id": "gp_008",
+    "mode": "guess_partner",
+    "pack": "fun",
+    "text": "What small thing is most likely to annoy {name} during a trip?"
+  },
+  {
+    "id": "gp_009",
+    "mode": "guess_partner",
+    "pack": "cute",
+    "text": "What simple gesture makes {name} feel especially appreciated?"
+  },
+  {
+    "id": "gp_010",
+    "mode": "guess_partner",
+    "pack": "cute",
+    "text": "What would {name} include in their ideal cozy evening together?"
+  },
+  {
+    "id": "gp_011",
+    "mode": "guess_partner",
+    "pack": "cute",
+    "text": "What inexpensive surprise would make {name} smile?"
+  },
+  {
+    "id": "gp_012",
+    "mode": "guess_partner",
+    "pack": "cute",
+    "text": "What compliment would {name} most enjoy hearing?"
+  },
+  {
+    "id": "gp_013",
+    "mode": "guess_partner",
+    "pack": "cute",
+    "text": "What kind of date would {name} choose after a stressful week?"
+  },
+  {
+    "id": "gp_014",
+    "mode": "guess_partner",
+    "pack": "deep",
+    "text": "What quality does {name} value most in a close relationship?"
+  },
+  {
+    "id": "gp_015",
+    "mode": "guess_partner",
+    "pack": "deep",
+    "text": "What helps {name} feel supported when they are overwhelmed?"
+  },
+  {
+    "id": "gp_016",
+    "mode": "guess_partner",
+    "pack": "deep",
+    "text": "What personal achievement is {name} especially proud of?"
+  },
+  {
+    "id": "gp_017",
+    "mode": "guess_partner",
+    "pack": "deep",
+    "text": "What is one skill {name} wishes they could learn more easily?"
+  },
+  {
+    "id": "gp_018",
+    "mode": "guess_partner",
+    "pack": "deep",
+    "text": "What everyday situation makes {name} feel most confident?"
+  },
+  {
+    "id": "gp_019",
+    "mode": "guess_partner",
+    "pack": "memories",
+    "text": "What shared memory would {name} most like to relive?"
+  },
+  {
+    "id": "gp_020",
+    "mode": "guess_partner",
+    "pack": "memories",
+    "text": "What detail from our first date does {name} remember best?"
+  },
+  {
+    "id": "gp_021",
+    "mode": "guess_partner",
+    "pack": "memories",
+    "text": "Which trip or outing together stands out most to {name}?"
+  },
+  {
+    "id": "gp_022",
+    "mode": "guess_partner",
+    "pack": "memories",
+    "text": "What funny moment between us would {name} mention first?"
+  },
+  {
+    "id": "gp_023",
+    "mode": "guess_partner",
+    "pack": "memories",
+    "text": "What place feels especially meaningful to {name} because of us?"
+  },
+  {
+    "id": "gp_024",
+    "mode": "guess_partner",
+    "pack": "future",
+    "text": "What destination is highest on {name}'s travel wish list?"
+  },
+  {
+    "id": "gp_025",
+    "mode": "guess_partner",
+    "pack": "future",
+    "text": "What feature would {name} most want in a future home?"
+  },
+  {
+    "id": "gp_026",
+    "mode": "guess_partner",
+    "pack": "future",
+    "text": "What shared activity would {name} like us to do more often?"
+  },
+  {
+    "id": "gp_027",
+    "mode": "guess_partner",
+    "pack": "future",
+    "text": "What would {name} choose as a small goal for the next month?"
+  },
+  {
+    "id": "gp_028",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What completely useless superpower would {name} still enjoy having?"
+  },
+  {
+    "id": "gp_029",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What ridiculous item would {name} buy if it cost almost nothing?"
+  },
+  {
+    "id": "gp_030",
+    "mode": "guess_partner",
+    "pack": "chaotic",
+    "text": "What fictional world would {name} visit for one day?"
+  }
+]

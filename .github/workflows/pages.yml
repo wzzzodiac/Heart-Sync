@@ -1,0 +1,47 @@
+name: Publish frontend to GitHub Pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      VITE_SERVER_URL: ${{ vars.VITE_SERVER_URL }}
+      VITE_BASE_PATH: /Heart-Sync/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Require the separate backend URL
+        run: |
+          if [[ ! "$VITE_SERVER_URL" =~ ^https://[^/]+ ]]; then
+            echo 'Set repository variable VITE_SERVER_URL to your HTTPS Heart Sync backend URL.'
+            exit 1
+          fi
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/client
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
