@@ -178,5 +178,245 @@
     "mode": "most_likely",
     "pack": "future",
     "text": "Who is more likely to convince the other to try a completely new hobby?"
+  },
+  {
+    "id": "ml_031",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to lose an argument to an automated checkout machine?"
+  },
+  {
+    "id": "ml_032",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to rehearse a phone call and still say the wrong thing?"
+  },
+  {
+    "id": "ml_033",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to wave back at someone who was waving at the person behind them?"
+  },
+  {
+    "id": "ml_034",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to claim a chair with a pile of clothes and call it organization?"
+  },
+  {
+    "id": "ml_035",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to accidentally turn on the front camera and get personally offended?"
+  },
+  {
+    "id": "ml_036",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to say \"I know a shortcut\" just before making us late?"
+  },
+  {
+    "id": "ml_037",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to develop a personal rivalry with a contestant on a cooking show?"
+  },
+  {
+    "id": "ml_038",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to spend longer choosing a delivery order than the restaurant spends cooking it?"
+  },
+  {
+    "id": "ml_039",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to wear something inside out and defend it as a style choice?"
+  },
+  {
+    "id": "ml_040",
+    "mode": "most_likely",
+    "pack": "fun",
+    "text": "Who is more likely to provide dramatic commentary while the other parallel-parks?"
+  },
+  {
+    "id": "ml_041",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to get elected leader of a cult by misunderstanding a group chat?"
+  },
+  {
+    "id": "ml_042",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to challenge a goose for the right to use a public path?"
+  },
+  {
+    "id": "ml_043",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to agree to a side quest from a stranger dressed as a wizard?"
+  },
+  {
+    "id": "ml_044",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to buy a fog machine for an occasion that absolutely does not need one?"
+  },
+  {
+    "id": "ml_045",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to invent a conspiracy theory about the missing socks?"
+  },
+  {
+    "id": "ml_046",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to name a Wi-Fi network just to annoy the neighbors?"
+  },
+  {
+    "id": "ml_047",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to end up in a local news story involving an inflatable dinosaur?"
+  },
+  {
+    "id": "ml_048",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to bargain with a vending machine as if it understands emotions?"
+  },
+  {
+    "id": "ml_049",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to start a fake rivalry with the couple across the street?"
+  },
+  {
+    "id": "ml_050",
+    "mode": "most_likely",
+    "pack": "chaotic",
+    "text": "Who is more likely to turn assembling flat-pack furniture into a constitutional crisis?"
+  },
+  {
+    "id": "ml_051",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to turn an innocent compliment into shameless flirting?"
+  },
+  {
+    "id": "ml_052",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to initiate a kiss while we are supposed to be getting ready to leave?"
+  },
+  {
+    "id": "ml_053",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to send a suggestive message and then act completely innocent?"
+  },
+  {
+    "id": "ml_054",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to wear an outfit specifically to distract the other person?"
+  },
+  {
+    "id": "ml_055",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to forget the plot because cuddling got distracting?"
+  },
+  {
+    "id": "ml_056",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to make the other blush with just a look across the room?"
+  },
+  {
+    "id": "ml_057",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to suggest we recreate our first kiss?"
+  },
+  {
+    "id": "ml_058",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to invent an excuse for five more minutes alone together?"
+  },
+  {
+    "id": "ml_059",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to start a flirty bet they are secretly hoping to lose?"
+  },
+  {
+    "id": "ml_060",
+    "mode": "most_likely",
+    "pack": "spicy",
+    "text": "Who is more likely to be confident over text and suddenly shy face to face?"
+  },
+  {
+    "id": "ml_061",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to leave a one-star review of their own funeral?"
+  },
+  {
+    "id": "ml_062",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to haunt someone over an unpaid ten-euro debt?"
+  },
+  {
+    "id": "ml_063",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to ask whether the apocalypse counts as a valid excuse to miss work?"
+  },
+  {
+    "id": "ml_064",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to negotiate with the Grim Reaper using loyalty points?"
+  },
+  {
+    "id": "ml_065",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to get kicked out of the afterlife for questioning the management?"
+  },
+  {
+    "id": "ml_066",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to write an obituary that sounds suspiciously like a dating profile?"
+  },
+  {
+    "id": "ml_067",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to make a nervous joke at a funeral and regret it immediately?"
+  },
+  {
+    "id": "ml_068",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to ask for a receipt after selling their soul?"
+  },
+  {
+    "id": "ml_069",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to have their search history presented as evidence against them in the afterlife?"
+  },
+  {
+    "id": "ml_070",
+    "mode": "most_likely",
+    "pack": "dark_humor",
+    "text": "Who is more likely to survive a horror film only to get injured during the victory dance?"
   }
 ]

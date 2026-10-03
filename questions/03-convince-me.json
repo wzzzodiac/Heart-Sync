@@ -178,5 +178,245 @@
     "mode": "convince_me",
     "pack": "future",
     "text": "Choose one shared goal for the next year and explain why it matters."
+  },
+  {
+    "id": "cm_031",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Defend your most questionable snack combination as if you are a Michelin-starred chef."
+  },
+  {
+    "id": "cm_032",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Make a serious case for why your side of the bed deserves diplomatic immunity."
+  },
+  {
+    "id": "cm_033",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Pitch an award ceremony for the most boring thing we accomplished this week."
+  },
+  {
+    "id": "cm_034",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Explain why being five minutes late should count as arriving dramatically on time."
+  },
+  {
+    "id": "cm_035",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Sell me a luxury version of a completely ordinary household chore."
+  },
+  {
+    "id": "cm_036",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Give a closing argument in the case of Who Finished the Snacks."
+  },
+  {
+    "id": "cm_037",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Explain why your collection of open browser tabs is actually a sophisticated filing system."
+  },
+  {
+    "id": "cm_038",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Pitch a romantic date using only things available at a petrol station."
+  },
+  {
+    "id": "cm_039",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Convince me that your worst dance move deserves a name and official recognition."
+  },
+  {
+    "id": "cm_040",
+    "mode": "convince_me",
+    "pack": "fun",
+    "text": "Write a two-sentence apology from the perspective of a washing machine that ate a sock."
+  },
+  {
+    "id": "cm_041",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Pitch a reality show where our houseplants judge our life decisions."
+  },
+  {
+    "id": "cm_042",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Convince a committee of pigeons that we deserve permission to use the park."
+  },
+  {
+    "id": "cm_043",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Propose a completely unnecessary mascot for our relationship and explain its duties."
+  },
+  {
+    "id": "cm_044",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Defend replacing our doorbell with a dramatic entrance announcement."
+  },
+  {
+    "id": "cm_045",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Pitch a museum exhibit about an object currently lying on our floor."
+  },
+  {
+    "id": "cm_046",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Convince me we could successfully run a hotel for cryptids with terrible manners."
+  },
+  {
+    "id": "cm_047",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Explain why our next disagreement should be settled by a council of rubber ducks."
+  },
+  {
+    "id": "cm_048",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Invent a premium subscription for our relationship with three absurd but harmless perks."
+  },
+  {
+    "id": "cm_049",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Pitch a diplomatic treaty between our clean laundry and the chair it keeps occupying."
+  },
+  {
+    "id": "cm_050",
+    "mode": "convince_me",
+    "pack": "chaotic",
+    "text": "Convince me that an ordinary supermarket visit deserves a movie trailer."
+  },
+  {
+    "id": "cm_051",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Pitch a private date night with a dress code designed to make us both feel attractive."
+  },
+  {
+    "id": "cm_052",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Give me your best terrible pickup line, then defend why it would still work on me."
+  },
+  {
+    "id": "cm_053",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Convince me to put both our phones away for an evening of uninterrupted flirting."
+  },
+  {
+    "id": "cm_054",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Pitch a slow-dance playlist and explain which song should bring us closer."
+  },
+  {
+    "id": "cm_055",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Describe a private, flirtatious surprise that depends on attention rather than money."
+  },
+  {
+    "id": "cm_056",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Make the case for recreating the anticipation of our first kiss."
+  },
+  {
+    "id": "cm_057",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Invent a flirty bet with a reward we would both be happy to win or give."
+  },
+  {
+    "id": "cm_058",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Sell me on a stay-at-home date where we pretend we have just met."
+  },
+  {
+    "id": "cm_059",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Explain which ordinary outfit of mine deserves an unfair-attraction warning label."
+  },
+  {
+    "id": "cm_060",
+    "mode": "convince_me",
+    "pack": "spicy",
+    "text": "Pitch an evening where compliments get increasingly bold but stay within what we both enjoy."
+  },
+  {
+    "id": "cm_061",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Pitch your own funeral as an event planner who has confused it with a product launch."
+  },
+  {
+    "id": "cm_062",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Convince the Grim Reaper to reschedule because your calendar is already unreasonable."
+  },
+  {
+    "id": "cm_063",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Write a complaint to the afterlife about a service that was clearly oversold."
+  },
+  {
+    "id": "cm_064",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Make the case that haunting the Wi-Fi router is more effective than rattling chains."
+  },
+  {
+    "id": "cm_065",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Pitch a cheerful tourism slogan for a fictional underworld with terrible infrastructure."
+  },
+  {
+    "id": "cm_066",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Convince a vampire that eternal life is not worth eternal subscription fees."
+  },
+  {
+    "id": "cm_067",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Defend your right to complain about the catering during the apocalypse."
+  },
+  {
+    "id": "cm_068",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Explain why our imaginary tombstone should include a QR code to a blooper reel."
+  },
+  {
+    "id": "cm_069",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Sell an obviously haunted house without technically lying about the previous residents."
+  },
+  {
+    "id": "cm_070",
+    "mode": "convince_me",
+    "pack": "dark_humor",
+    "text": "Argue that your unfinished to-do list should legally expire when you become a ghost."
   }
 ]

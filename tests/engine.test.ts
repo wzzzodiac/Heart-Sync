@@ -6,6 +6,7 @@ import { loadBank } from "../server/bank.js";
 import {
   DEFAULT_SETTINGS,
   MODES,
+  OPTIONAL_PACKS,
   validateQuestion,
   type Ack,
   type Mode,
@@ -77,12 +78,13 @@ function fixture(mode: Mode | "mixed" = "most_likely", options = {}) {
     b: b.session,
   };
 }
-test("bank: exactly 120 unique seed records, placeholders and options validate", () => {
+test("bank: 280 unique questions, 70 per mode, placeholders and options validate", () => {
   const bank = loadBank();
-  assert.equal(bank.length, 120);
-  assert.equal(new Set(bank.map((q) => q.id)).size, 120);
+  assert.equal(bank.length, 280);
+  assert.equal(new Set(bank.map((q) => q.id)).size, 280);
+  assert.equal(new Set(bank.map((q) => q.text.trim().toLowerCase())).size, 280);
   for (const m of MODES)
-    assert.equal(bank.filter((q) => q.mode === m).length, 30);
+    assert.equal(bank.filter((q) => q.mode === m).length, 70);
   assert.throws(() =>
     validateQuestion({ ...bank[0], text: "Unknown {placeholder}" }),
   );
@@ -94,6 +96,79 @@ test("bank: exactly 120 unique seed records, placeholders and options validate",
         { id: "b", text: "SAME" },
       ],
     }),
+  );
+});
+test("new rooms exclude both optional packs from availability and every default deck", () => {
+  for (const mode of ["mixed", ...MODES] as const) {
+    const f = fixture(mode);
+    const room = [...f.engine.rooms.values()][0];
+    const available = f.engine.availability(room);
+    assert.equal(available.total, mode === "mixed" ? 200 : 50);
+    assert(
+      available.bank.every(
+        (q) => q.pack !== "spicy" && q.pack !== "dark_humor",
+      ),
+    );
+    f.start();
+    assert(
+      room.deck.every((q) => q.pack !== "spicy" && q.pack !== "dark_humor"),
+    );
+  }
+});
+for (const pack of OPTIONAL_PACKS) {
+  test(`${pack}: explicit selection works alone in all modes without repeats`, () => {
+    for (const mode of ["mixed", ...MODES] as const) {
+      const f = fixture(mode);
+      f.ok(
+        f.execute("a", "settings", {
+          settings: { ...DEFAULT_SETTINGS, mode, packs: [pack], count: 10 },
+        }),
+      );
+      assert.equal(
+        f.snapshots.a.availability.total,
+        mode === "mixed" ? 40 : 10,
+      );
+      assert.deepEqual(f.snapshots.b.settings.packs, [pack]);
+      f.start();
+      const deck = [...f.engine.rooms.values()][0].deck;
+      assert.equal(deck.length, 10);
+      assert.equal(new Set(deck.map((q) => q.id)).size, 10);
+      assert(deck.every((q) => q.pack === pack));
+      if (mode === "mixed")
+        assert.equal(new Set(deck.map((q) => q.mode)).size, 4);
+    }
+  });
+}
+test("optional pack changes require the host, reset both Ready states and stay room-local", () => {
+  const f = fixture();
+  f.ok(f.execute("a", "ready", { ready: true }));
+  f.ok(f.execute("b", "ready", { ready: true }));
+  const settings = { ...DEFAULT_SETTINGS, packs: ["spicy", "dark_humor"] };
+  assert(!f.execute("b", "settings", { settings }).ok);
+  f.ok(f.execute("a", "settings", { settings }));
+  assert(f.snapshots.a.players.every((p) => !p.ready));
+  assert.deepEqual(f.snapshots.b.settings, f.snapshots.a.settings);
+  assert(!f.execute("a", "start").ok);
+  f.ok(f.execute("c", "create", { name: "Another room" }));
+  assert.deepEqual(f.snapshots.c.settings.packs, DEFAULT_SETTINGS.packs);
+  f.ok(
+    f.execute("a", "settings", {
+      settings: {
+        ...DEFAULT_SETTINGS,
+        mode: "most_likely",
+        count: 20,
+        packs: ["spicy"],
+      },
+    }),
+  );
+  assert.match(f.snapshots.a.availability.error!, /Only 10/);
+  f.ok(f.execute("a", "ready", { ready: true }));
+  f.ok(f.execute("b", "ready", { ready: true }));
+  assert(!f.execute("a", "start").ok);
+  assert(
+    !f.execute("a", "settings", {
+      settings: { ...DEFAULT_SETTINGS, packs: ["unknown"] },
+    }).ok,
   );
 });
 test("Ready barrier, identity labels, host-only settings and ready invalidation", () => {
@@ -334,7 +409,7 @@ test("custom validation, editing invalidates Ready, capacity, inclusion before b
   });
   assert(other.ok);
   assert.equal(f.snapshots.c.custom.length, 0);
-  assert.equal(loadBank().length, 120);
+  assert.equal(loadBank().length, 280);
   const overflow = fixture();
   overflow.ok(
     overflow.execute("a", "custom", {

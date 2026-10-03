@@ -5,7 +5,7 @@ export const MODES = [
   "guess_partner",
 ] as const;
 export type Mode = (typeof MODES)[number];
-export const PACKS = [
+export const DEFAULT_PACKS = [
   "fun",
   "cute",
   "deep",
@@ -13,7 +13,19 @@ export const PACKS = [
   "memories",
   "future",
 ] as const;
+export const OPTIONAL_PACKS = ["spicy", "dark_humor"] as const;
+export const PACKS = [...DEFAULT_PACKS, ...OPTIONAL_PACKS] as const;
 export type Pack = (typeof PACKS)[number];
+export const PACK_LABELS: Record<Pack, string> = {
+  fun: "Fun",
+  cute: "Cute",
+  deep: "Deep",
+  chaotic: "Chaotic",
+  memories: "Memories",
+  future: "Future",
+  spicy: "Spicy (18+)",
+  dark_humor: "Dark humor",
+};
 export const MODE_INFO: Record<
   Mode,
   { name: string; description: string; symbol: string }
@@ -58,7 +70,7 @@ export const DEFAULT_SETTINGS: Settings = {
   mode: "mixed",
   count: 10,
   seconds: 30,
-  packs: [...PACKS],
+  packs: [...DEFAULT_PACKS],
   includeCustom: true,
 };
 export type Phase =
