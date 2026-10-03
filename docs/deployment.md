@@ -4,6 +4,59 @@ Prepared for the existing public repository **wzzzodiac/Heart-Sync**. Local veri
 
 ## 1. Backend: Cloud Run
 
+### Current next step: identify an existing project (read-only)
+
+On 2026-10-03 the local Windows shell exposed neither `gcloud` nor Docker, and no Cloud Run connector was available. No SDK was found at the standard user/system Google Cloud SDK paths. Use [Cloud Shell](https://shell.cloud.google.com/) to avoid a local installation; it includes the Google Cloud CLI and Docker. Sign in to the intended Google account, authorize Cloud Shell when prompted, and run only these read-only commands first:
+
+```bash
+gcloud auth list --filter=status:ACTIVE --format='value(account)'
+gcloud projects list --format='table(projectId,name,lifecycleState)'
+```
+
+Choose the exact existing **project ID** intended for Heart Sync and provide that ID to continue. Do not provide passwords, tokens or service-account keys. If no suitable project exists, stop here and agree on a new project's name and billing setup before creating anything.
+
+Once a real project is chosen, check its existing state without enabling services or changing permissions:
+
+```bash
+PROJECT_ID='YOUR_REAL_EXISTING_PROJECT_ID'
+gcloud projects describe "$PROJECT_ID" --format='yaml(projectId,projectNumber,lifecycleState)'
+gcloud billing projects describe "$PROJECT_ID" --format='yaml(projectId,billingEnabled)'
+gcloud services list --enabled --project "$PROJECT_ID" --format='value(config.name)'
+```
+
+Stop if any command requests enabling an API, changing billing or additional permissions; report that prerequisite for review. Then review source-deployment IAM requirements, enabled APIs and the chosen region (`europe-west1` by default). A project being visible does not establish deployment permission. Do not enable APIs, grant IAM roles, create registries, submit builds or deploy yet.
+
+### Later, after explicit authorization for billable resources
+
+1. Confirm the real project, its existing billing and the exact missing API/IAM prerequisites. Apply only approved setup changes. Source deployment can use Cloud Build and Artifact Registry, which may incur costs.
+2. Deploy the reviewed commit to the separate `heart-sync` service with the limits below, after all players have left.
+3. Verify the real service URL, `/health`, one-revision traffic, scaling settings and gameplay with two clients.
+4. Only then put that **verified real HTTPS URL** in the repository's `VITE_SERVER_URL` variable and authorize Pages publishing. Never use a placeholder or a different game's backend.
+
+For Cloud Shell, clone the review branch now only if needed for inspection:
+
+```bash
+git clone --branch codex/heart-sync-v1 https://github.com/wzzzodiac/Heart-Sync.git
+cd Heart-Sync
+git rev-parse HEAD
+```
+
+Cloud Shell uses Bash; the PowerShell script below is for a Windows environment with `gcloud` installed. After deployment is authorized, the equivalent Bash commands from the repository root are:
+
+```bash
+# DO NOT RUN until the real project and billable deployment are authorized.
+gcloud run deploy heart-sync --source . --project "$PROJECT_ID" \
+  --region europe-west1 --allow-unauthenticated --max 1 --min 0 \
+  --concurrency 40 --timeout 3600 --session-affinity \
+  --set-env-vars 'NODE_ENV=production,ALLOWED_ORIGINS=https://wzzzodiac.github.io'
+gcloud run services update-traffic heart-sync --project "$PROJECT_ID" \
+  --region europe-west1 --to-latest
+gcloud run services describe heart-sync --project "$PROJECT_ID" \
+  --region europe-west1 --format='value(status.url)'
+```
+
+### Windows deployment script and shared settings
+
 Before running deployment you need explicit owner approval for billable resources, a Google Cloud project with billing, an authenticated Google Cloud CLI, Cloud Run / Cloud Build / Artifact Registry APIs enabled, and the necessary deploy/build/service-account permissions. Do not borrow another game's service or credentials. Stop all Heart Sync sessions before deployment; an in-memory room cannot be migrated.
 
 From the repository root in PowerShell, after those prerequisites:

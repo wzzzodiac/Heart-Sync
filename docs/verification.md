@@ -20,7 +20,7 @@ Screenshots are in ignored `qa/`, including `home-1440.png`, `home-390.png`, `lo
 
 ## Not performed / remaining
 
-- **No GitHub push, merge, Pages activation or external deployment.** Publication remains subject to the owner's authorization in the supplied prompt. The repository was initially empty.
+- At the initial local verification, no GitHub push, merge, Pages activation or external deployment had occurred. The owner subsequently authorized publishing `codex/heart-sync-v1` and opening a PR. The empty remote requires an empty bootstrap commit on `main`, with the implementation rebased onto it for a reviewable PR. Merge, billable resources and Pages deployment remain outside this publication step.
 - No Google Cloud project ID, deployment authorization or real backend URL was supplied. The local shell did not expose `gcloud`. Cloud CLI authentication, billing and required IAM/API setup must be supplied/verified before deployment.
 - No Docker engine was exposed in this local shell, so the Dockerfile was prepared but **not built or run**. The underlying server TypeScript build was verified locally; that does not establish a container-runtime result.
 - Cloud Run reconnects, scale-to-zero, one-hour request expiry, billing and Pages workflow execution have not been tested on a live deployment. After backend deployment, set `VITE_SERVER_URL`, enable Pages Actions, publish, then test from two real devices.
