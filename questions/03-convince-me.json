@@ -3,19 +3,19 @@
     "id": "cm_001",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Pitch a low-budget date that would still feel special."
+    "text": "Suggest a cheap date that would still feel special. Explain your idea."
   },
   {
     "id": "cm_002",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Choose our next movie-night theme and sell me on it."
+    "text": "Choose a theme for our next movie night. Tell me why it is a good choice."
   },
   {
     "id": "cm_003",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Pick one food we should try together and make your case."
+    "text": "Choose a food we should try together. Tell me why."
   },
   {
     "id": "cm_004",
@@ -33,390 +33,390 @@
     "id": "cm_006",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Describe a lazy Sunday plan I would find hard to refuse."
+    "text": "Describe a relaxing Sunday that I would love."
   },
   {
     "id": "cm_007",
     "mode": "convince_me",
     "pack": "cute",
-    "text": "Propose a tiny daily ritual that would make our days better."
+    "text": "Suggest a small thing we could do every day to feel happier."
   },
   {
     "id": "cm_008",
     "mode": "convince_me",
     "pack": "cute",
-    "text": "Pick an ordinary place and explain how you would turn it into a romantic date."
+    "text": "Choose a normal place. Explain how you would make a date there romantic."
   },
   {
     "id": "cm_009",
     "mode": "convince_me",
     "pack": "cute",
-    "text": "Describe a thoughtful surprise that would cost almost nothing."
+    "text": "Describe a sweet surprise that costs almost nothing."
   },
   {
     "id": "cm_010",
     "mode": "convince_me",
     "pack": "cute",
-    "text": "Give our relationship a silly slogan and explain why it fits."
+    "text": "Invent a short, funny line about us as a couple. Explain why it fits."
   },
   {
     "id": "cm_011",
     "mode": "convince_me",
     "pack": "cute",
-    "text": "Suggest a way to make a rainy evening together memorable."
+    "text": "Suggest a way to make a rainy evening together special."
   },
   {
     "id": "cm_012",
     "mode": "convince_me",
     "pack": "cute",
-    "text": "Pitch a new way for us to celebrate small achievements."
+    "text": "Suggest a new way to celebrate the small things we do well."
   },
   {
     "id": "cm_013",
     "mode": "convince_me",
     "pack": "deep",
-    "text": "Propose one simple rule for handling disagreements kindly."
+    "text": "Suggest a simple rule to help us be kind when we disagree."
   },
   {
     "id": "cm_014",
     "mode": "convince_me",
     "pack": "deep",
-    "text": "Suggest a small way we could support each other during a busy week."
+    "text": "Suggest a small way we could help each other during a busy week."
   },
   {
     "id": "cm_015",
     "mode": "convince_me",
     "pack": "deep",
-    "text": "Pick one relationship habit worth protecting and explain why."
+    "text": "What good habit should we keep as a couple? Explain why."
   },
   {
     "id": "cm_016",
     "mode": "convince_me",
     "pack": "deep",
-    "text": "Suggest a way we could balance time together with time for ourselves."
+    "text": "How can we enjoy time together and still have time for ourselves?"
   },
   {
     "id": "cm_017",
     "mode": "convince_me",
     "pack": "deep",
-    "text": "Propose a simple way to ask for help without feeling awkward."
+    "text": "Suggest a way to ask for help without feeling uncomfortable."
   },
   {
     "id": "cm_018",
     "mode": "convince_me",
     "pack": "deep",
-    "text": "Explain one benefit of trying something together even if we are both bad at it."
+    "text": "Why should we try something together even if we are both bad at it?"
   },
   {
     "id": "cm_019",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Pitch the worst business idea that we would still have fun running together."
+    "text": "Invent a terrible business idea that would still be fun for us to try."
   },
   {
     "id": "cm_020",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Convince me that we need a completely unnecessary gadget."
+    "text": "Tell me why we need a machine that does something completely useless."
   },
   {
     "id": "cm_021",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Invent a ridiculous holiday and explain how we would celebrate it."
+    "text": "Invent a silly holiday. Explain how we would celebrate it."
   },
   {
     "id": "cm_022",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Give us a fake superhero team name and pitch our useless powers."
+    "text": "Invent a name for our superhero team. Give us two useless powers."
   },
   {
     "id": "cm_023",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Suggest one harmless household rule that would make life more absurd."
+    "text": "Suggest a silly, harmless rule for our home."
   },
   {
     "id": "cm_024",
     "mode": "convince_me",
     "pack": "memories",
-    "text": "Choose one shared memory we should recreate and explain why."
+    "text": "Choose a happy moment we shared. Explain why we should try it again."
   },
   {
     "id": "cm_025",
     "mode": "convince_me",
     "pack": "memories",
-    "text": "Pick a photo of us that deserves to be framed and describe it."
+    "text": "Describe a photo of us that we should put on the wall. Explain why."
   },
   {
     "id": "cm_026",
     "mode": "convince_me",
     "pack": "memories",
-    "text": "Choose a place we have visited that deserves a second trip."
+    "text": "Choose a place we have visited. Tell me why we should go back."
   },
   {
     "id": "cm_027",
     "mode": "convince_me",
     "pack": "future",
-    "text": "Pitch a destination for a future trip in three sentences or fewer."
+    "text": "Suggest a place for our next trip. Give your reasons in up to three sentences."
   },
   {
     "id": "cm_028",
     "mode": "convince_me",
     "pack": "future",
-    "text": "Suggest a skill we should learn together before living together."
+    "text": "Suggest a skill we should learn before we live together."
   },
   {
     "id": "cm_029",
     "mode": "convince_me",
     "pack": "future",
-    "text": "Propose a new tradition for future anniversaries."
+    "text": "Suggest something new we could do every year on our anniversary."
   },
   {
     "id": "cm_030",
     "mode": "convince_me",
     "pack": "future",
-    "text": "Choose one shared goal for the next year and explain why it matters."
+    "text": "Choose a goal for us next year. Explain why it matters."
   },
   {
     "id": "cm_031",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Defend your most questionable snack combination as if you are a Michelin-starred chef."
+    "text": "Describe your strangest snack mix. Tell me why it belongs in an expensive restaurant."
   },
   {
     "id": "cm_032",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Make a serious case for why your side of the bed deserves diplomatic immunity."
+    "text": "Pretend your side of the bed is a country. Explain why no one can make rules there."
   },
   {
     "id": "cm_033",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Pitch an award ceremony for the most boring thing we accomplished this week."
+    "text": "Plan a big prize ceremony for the most boring thing we did this week."
   },
   {
     "id": "cm_034",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Explain why being five minutes late should count as arriving dramatically on time."
+    "text": "Explain why arriving five minutes late makes you a star, not a late guest."
   },
   {
     "id": "cm_035",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Sell me a luxury version of a completely ordinary household chore."
+    "text": "Choose a boring job at home. Make it sound like an expensive holiday activity."
   },
   {
     "id": "cm_036",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Give a closing argument in the case of Who Finished the Snacks."
+    "text": "Someone ate all the snacks. Pretend you are in court and explain why you are innocent."
   },
   {
     "id": "cm_037",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Explain why your collection of open browser tabs is actually a sophisticated filing system."
+    "text": "Explain why all your open browser tabs are a great way to stay organized."
   },
   {
     "id": "cm_038",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Pitch a romantic date using only things available at a petrol station."
+    "text": "Plan a romantic date using only things from a gas station."
   },
   {
     "id": "cm_039",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Convince me that your worst dance move deserves a name and official recognition."
+    "text": "Give your worst dance move a name. Explain why it should win a prize."
   },
   {
     "id": "cm_040",
     "mode": "convince_me",
     "pack": "fun",
-    "text": "Write a two-sentence apology from the perspective of a washing machine that ate a sock."
+    "text": "You are a washing machine that ate a sock. Say sorry in two sentences."
   },
   {
     "id": "cm_041",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Pitch a reality show where our houseplants judge our life decisions."
+    "text": "Invent a TV show where our plants tell us what we are doing wrong."
   },
   {
     "id": "cm_042",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Convince a committee of pigeons that we deserve permission to use the park."
+    "text": "A group of pigeons controls the park. Tell them why they should let us in."
   },
   {
     "id": "cm_043",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Propose a completely unnecessary mascot for our relationship and explain its duties."
+    "text": "Choose an animal to be our team symbol as a couple. Give it a silly job."
   },
   {
     "id": "cm_044",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Defend replacing our doorbell with a dramatic entrance announcement."
+    "text": "Explain why our doorbell should shout our names like we are famous guests."
   },
   {
     "id": "cm_045",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Pitch a museum exhibit about an object currently lying on our floor."
+    "text": "Choose an object on our floor. Explain why it should be in a museum."
   },
   {
     "id": "cm_046",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Convince me we could successfully run a hotel for cryptids with terrible manners."
+    "text": "Tell me why we could run a great hotel for rude monsters."
   },
   {
     "id": "cm_047",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Explain why our next disagreement should be settled by a council of rubber ducks."
+    "text": "Explain why rubber ducks should decide who is right when we argue."
   },
   {
     "id": "cm_048",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Invent a premium subscription for our relationship with three absurd but harmless perks."
+    "text": "Imagine paying monthly for extra features in our relationship. Invent three silly, harmless features."
   },
   {
     "id": "cm_049",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Pitch a diplomatic treaty between our clean laundry and the chair it keeps occupying."
+    "text": "Our clean clothes and the chair they sit on are at war. Suggest a peace deal."
   },
   {
     "id": "cm_050",
     "mode": "convince_me",
     "pack": "chaotic",
-    "text": "Convince me that an ordinary supermarket visit deserves a movie trailer."
+    "text": "Explain why our next supermarket trip should have an exciting movie trailer."
   },
   {
     "id": "cm_051",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Pitch a private date night with a dress code designed to make us both feel attractive."
+    "text": "Plan a date night alone together. Choose clothes that make us both feel sexy."
   },
   {
     "id": "cm_052",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Give me your best terrible pickup line, then defend why it would still work on me."
+    "text": "Write a silly line to flirt with me. Explain why I would still like it."
   },
   {
     "id": "cm_053",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Convince me to put both our phones away for an evening of uninterrupted flirting."
+    "text": "Tell me why we should put our phones away and spend the evening flirting."
   },
   {
     "id": "cm_054",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Pitch a slow-dance playlist and explain which song should bring us closer."
+    "text": "Choose songs for a slow dance. Which song would make us hold each other closer?"
   },
   {
     "id": "cm_055",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Describe a private, flirtatious surprise that depends on attention rather than money."
+    "text": "Describe a sexy surprise for me. Use something you know I like, not something expensive."
   },
   {
     "id": "cm_056",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Make the case for recreating the anticipation of our first kiss."
+    "text": "How could we feel as excited as we did just before our first kiss?"
   },
   {
     "id": "cm_057",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Invent a flirty bet with a reward we would both be happy to win or give."
+    "text": "Invent a flirty bet. Choose a prize we would both enjoy giving or getting."
   },
   {
     "id": "cm_058",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Sell me on a stay-at-home date where we pretend we have just met."
+    "text": "Plan a date at home where we pretend we have just met. Tell me why it would be fun."
   },
   {
     "id": "cm_059",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Explain which ordinary outfit of mine deserves an unfair-attraction warning label."
+    "text": "Which of my everyday clothes should have a \"Too sexy\" warning? Explain why."
   },
   {
     "id": "cm_060",
     "mode": "convince_me",
     "pack": "spicy",
-    "text": "Pitch an evening where compliments get increasingly bold but stay within what we both enjoy."
+    "text": "Plan an evening of sweet and sexy compliments. Keep it fun for both of us."
   },
   {
     "id": "cm_061",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Pitch your own funeral as an event planner who has confused it with a product launch."
+    "text": "Plan your own funeral as if it were an exciting event to sell a new product."
   },
   {
     "id": "cm_062",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Convince the Grim Reaper to reschedule because your calendar is already unreasonable."
+    "text": "Death comes to collect you, but you are too busy. Give a reason to come back later."
   },
   {
     "id": "cm_063",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Write a complaint to the afterlife about a service that was clearly oversold."
+    "text": "Life after death is worse than the advert promised. Write a complaint."
   },
   {
     "id": "cm_064",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Make the case that haunting the Wi-Fi router is more effective than rattling chains."
+    "text": "You are a ghost. Explain why breaking the Wi-Fi is scarier than making strange noises."
   },
   {
     "id": "cm_065",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Pitch a cheerful tourism slogan for a fictional underworld with terrible infrastructure."
+    "text": "Invent a happy travel advert for hell, where all the roads are broken."
   },
   {
     "id": "cm_066",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Convince a vampire that eternal life is not worth eternal subscription fees."
+    "text": "Tell a vampire why living forever is too expensive with all those monthly bills."
   },
   {
     "id": "cm_067",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Defend your right to complain about the catering during the apocalypse."
+    "text": "The world is ending. Explain why you still have the right to complain about the food."
   },
   {
     "id": "cm_068",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Explain why our imaginary tombstone should include a QR code to a blooper reel."
+    "text": "Explain why our grave should have a QR code that opens a video of our funny mistakes."
   },
   {
     "id": "cm_069",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Sell an obviously haunted house without technically lying about the previous residents."
+    "text": "Try to sell a house full of ghosts. Tell the truth, but make it sound good."
   },
   {
     "id": "cm_070",
     "mode": "convince_me",
     "pack": "dark_humor",
-    "text": "Argue that your unfinished to-do list should legally expire when you become a ghost."
+    "text": "Explain why you should not have to finish your to-do list after you become a ghost."
   }
 ]

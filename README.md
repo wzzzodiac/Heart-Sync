@@ -1,6 +1,6 @@
 # Heart Sync
 
-A private, simultaneous game night for exactly two people. Choose a room code, answer the same question in secret, and discover your shared wavelength. All player-facing copy is in English.
+A private, simultaneous game night for exactly two people. Choose a room code, answer the same question in secret, and discover your shared wavelength. All player-facing copy is in English. The built-in questions and answer options use simple English aimed at A2/B1 readers.
 
 Four modes, 280 editable questions (70 per mode), six standard packs and two optional packs, optional room questions, and a shared **Sync score**. No accounts, database, chat, analytics, or AI judging. No public room directory or matchmaking. Rank It is not part of V1.
 

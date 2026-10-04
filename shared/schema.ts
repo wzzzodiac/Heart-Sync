@@ -37,17 +37,19 @@ export const MODE_INFO: Record<
   },
   this_or_that: {
     name: "This or That",
-    description: "Two possibilities. Choose secretly and see if you agree.",
+    description: "Choose one of two options in secret. See if you agree.",
     symbol: "⇄",
   },
   convince_me: {
     name: "Convince Me",
-    description: "Make your case, then privately judge each other’s pitch.",
+    description:
+      "Both write an idea and give reasons. Then vote on your partner’s answer.",
     symbol: "✦",
   },
   guess_partner: {
     name: "Guess Your Partner",
-    description: "One answers, one predicts. Both write at the same time.",
+    description:
+      "One writes their own answer. The other guesses it. Both write at the same time.",
     symbol: "◎",
   },
 };
