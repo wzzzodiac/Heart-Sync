@@ -3,15 +3,15 @@
     "id": "tt_001",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Pick the setting for our next short getaway.",
+    "text": "Where should we go for a short holiday?",
     "options": [
       {
         "id": "a",
-        "text": "Beach"
+        "text": "The beach"
       },
       {
         "id": "b",
-        "text": "Mountains"
+        "text": "The mountains"
       }
     ]
   },
@@ -19,7 +19,7 @@
     "id": "tt_002",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose tonight's screen entertainment.",
+    "text": "What should we watch tonight?",
     "options": [
       {
         "id": "a",
@@ -27,7 +27,7 @@
       },
       {
         "id": "b",
-        "text": "A series"
+        "text": "A TV series"
       }
     ]
   },
@@ -35,7 +35,7 @@
     "id": "tt_003",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose a meal for a lazy evening together.",
+    "text": "What should we eat on a lazy evening together?",
     "options": [
       {
         "id": "a",
@@ -51,15 +51,15 @@
     "id": "tt_004",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Pick our weekend wake-up style.",
+    "text": "When should we get up at the weekend?",
     "options": [
       {
         "id": "a",
-        "text": "Early start"
+        "text": "Early"
       },
       {
         "id": "b",
-        "text": "Sleep in"
+        "text": "Late"
       }
     ]
   },
@@ -67,15 +67,15 @@
     "id": "tt_005",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose how we explore a new city.",
+    "text": "How should we visit a new city?",
     "options": [
       {
         "id": "a",
-        "text": "Detailed itinerary"
+        "text": "Follow a detailed plan"
       },
       {
         "id": "b",
-        "text": "Wander and discover"
+        "text": "Walk around with no plan"
       }
     ]
   },
@@ -83,7 +83,7 @@
     "id": "tt_006",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Pick a game night style.",
+    "text": "How should we play on game night?",
     "options": [
       {
         "id": "a",
@@ -91,7 +91,7 @@
       },
       {
         "id": "b",
-        "text": "Compete against each other"
+        "text": "Play against each other"
       }
     ]
   },
@@ -99,15 +99,15 @@
     "id": "tt_007",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose a holiday base.",
+    "text": "Where should we stay on holiday?",
     "options": [
       {
         "id": "a",
-        "text": "Big city"
+        "text": "A big city"
       },
       {
         "id": "b",
-        "text": "Quiet countryside"
+        "text": "The quiet countryside"
       }
     ]
   },
@@ -115,15 +115,15 @@
     "id": "tt_008",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose a treat to share.",
+    "text": "What should we share?",
     "options": [
       {
         "id": "a",
-        "text": "Sweet dessert"
+        "text": "A sweet dessert"
       },
       {
         "id": "b",
-        "text": "Savory snacks"
+        "text": "Salty snacks"
       }
     ]
   },
@@ -147,15 +147,15 @@
     "id": "tt_010",
     "mode": "this_or_that",
     "pack": "cute",
-    "text": "Pick an evening with no plans.",
+    "text": "What should we do on a free evening?",
     "options": [
       {
         "id": "a",
-        "text": "Long walk"
+        "text": "Take a long walk"
       },
       {
         "id": "b",
-        "text": "Blanket and movie"
+        "text": "Watch a movie under a blanket"
       }
     ]
   },
@@ -167,11 +167,11 @@
     "options": [
       {
         "id": "a",
-        "text": "Handwritten note"
+        "text": "A note written by hand"
       },
       {
         "id": "b",
-        "text": "Favorite snack"
+        "text": "Your favorite snack"
       }
     ]
   },
@@ -179,7 +179,7 @@
     "id": "tt_012",
     "mode": "this_or_that",
     "pack": "cute",
-    "text": "Pick the soundtrack for a cozy night.",
+    "text": "What would you like to hear on a quiet night together?",
     "options": [
       {
         "id": "a",
@@ -195,15 +195,15 @@
     "id": "tt_013",
     "mode": "this_or_that",
     "pack": "cute",
-    "text": "Choose a shared keepsake.",
+    "text": "How should we keep our memories?",
     "options": [
       {
         "id": "a",
-        "text": "Photo album"
+        "text": "A photo album"
       },
       {
         "id": "b",
-        "text": "Box of little souvenirs"
+        "text": "A box of small things from our dates"
       }
     ]
   },
@@ -211,15 +211,15 @@
     "id": "tt_014",
     "mode": "this_or_that",
     "pack": "cute",
-    "text": "Pick a spontaneous date.",
+    "text": "Choose a date we could plan at the last minute.",
     "options": [
       {
         "id": "a",
-        "text": "Sunrise picnic"
+        "text": "A picnic as the sun comes up"
       },
       {
         "id": "b",
-        "text": "Midnight dessert run"
+        "text": "Go out for dessert at midnight"
       }
     ]
   },
@@ -227,7 +227,7 @@
     "id": "tt_015",
     "mode": "this_or_that",
     "pack": "future",
-    "text": "Choose the location of a dream home.",
+    "text": "Where would you like our dream home to be?",
     "options": [
       {
         "id": "a",
@@ -243,15 +243,15 @@
     "id": "tt_016",
     "mode": "this_or_that",
     "pack": "future",
-    "text": "Pick a project to start together.",
+    "text": "What should we start learning together?",
     "options": [
       {
         "id": "a",
-        "text": "Learn a language"
+        "text": "A language"
       },
       {
         "id": "b",
-        "text": "Learn to cook new dishes"
+        "text": "How to cook new dishes"
       }
     ]
   },
@@ -259,15 +259,15 @@
     "id": "tt_017",
     "mode": "this_or_that",
     "pack": "future",
-    "text": "Choose how to celebrate a future anniversary.",
+    "text": "How should we celebrate our next anniversary?",
     "options": [
       {
         "id": "a",
-        "text": "Return to a favorite place"
+        "text": "Go back to a favorite place"
       },
       {
         "id": "b",
-        "text": "Try somewhere completely new"
+        "text": "Try a new place"
       }
     ]
   },
@@ -275,7 +275,7 @@
     "id": "tt_018",
     "mode": "this_or_that",
     "pack": "future",
-    "text": "Pick a travel pace.",
+    "text": "How would you like to travel?",
     "options": [
       {
         "id": "a",
@@ -291,15 +291,15 @@
     "id": "tt_019",
     "mode": "this_or_that",
     "pack": "future",
-    "text": "Choose a shared weekend ritual.",
+    "text": "What should we do together every weekend?",
     "options": [
       {
         "id": "a",
-        "text": "Sunday breakfast outing"
+        "text": "Go out for breakfast on Sunday"
       },
       {
         "id": "b",
-        "text": "Friday night at home"
+        "text": "Stay home on Friday night"
       }
     ]
   },
@@ -307,15 +307,15 @@
     "id": "tt_020",
     "mode": "this_or_that",
     "pack": "future",
-    "text": "Pick an extra room in a future home.",
+    "text": "Choose an extra room for our future home.",
     "options": [
       {
         "id": "a",
-        "text": "Gaming and movie room"
+        "text": "A room for games and movies"
       },
       {
         "id": "b",
-        "text": "Workshop and creative room"
+        "text": "A room to make and fix things"
       }
     ]
   },
@@ -323,15 +323,15 @@
     "id": "tt_021",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose our inconvenient superpower.",
+    "text": "Choose a superpower with a silly problem.",
     "options": [
       {
         "id": "a",
-        "text": "Teleport, but arrive wearing pajamas"
+        "text": "Travel anywhere in a second, but arrive in pajamas"
       },
       {
         "id": "b",
-        "text": "Fly, but only at walking speed"
+        "text": "Fly, but only as fast as walking"
       }
     ]
   },
@@ -339,7 +339,7 @@
     "id": "tt_022",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick our strange travel companion.",
+    "text": "Choose a strange friend for our next trip.",
     "options": [
       {
         "id": "a",
@@ -355,7 +355,7 @@
     "id": "tt_023",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose one curse for a week.",
+    "text": "Choose a strange magic rule for one week.",
     "options": [
       {
         "id": "a",
@@ -371,15 +371,15 @@
     "id": "tt_024",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick our absurd luxury.",
+    "text": "Choose a silly service just for us.",
     "options": [
       {
         "id": "a",
-        "text": "A personal chef who only cooks potatoes"
+        "text": "A cook who only makes potatoes"
       },
       {
         "id": "b",
-        "text": "A chauffeur who only drives tractors"
+        "text": "A driver who only drives tractors"
       }
     ]
   },
@@ -387,15 +387,15 @@
     "id": "tt_025",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose a ridiculous shared job.",
+    "text": "Choose a silly job for us.",
     "options": [
       {
         "id": "a",
-        "text": "Professional pillow testers"
+        "text": "Get paid to test pillows"
       },
       {
         "id": "b",
-        "text": "Theme park villain performers"
+        "text": "Play bad guys at a theme park"
       }
     ]
   },
@@ -403,15 +403,15 @@
     "id": "tt_026",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick a weird pet with a manageable problem.",
+    "text": "Choose a strange pet.",
     "options": [
       {
         "id": "a",
-        "text": "A cat that narrates our lives"
+        "text": "A cat that describes everything we do"
       },
       {
         "id": "b",
-        "text": "A dog that judges our outfits"
+        "text": "A dog that says what is wrong with our clothes"
       }
     ]
   },
@@ -419,15 +419,15 @@
     "id": "tt_027",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose a strange date challenge.",
+    "text": "Choose a strange rule for our date.",
     "options": [
       {
         "id": "a",
-        "text": "Speak only in movie quotes"
+        "text": "Only speak in lines from movies"
       },
       {
         "id": "b",
-        "text": "Communicate only through drawings"
+        "text": "Only talk through drawings"
       }
     ]
   },
@@ -435,15 +435,15 @@
     "id": "tt_028",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick our silly fame.",
+    "text": "What silly thing should we be famous for?",
     "options": [
       {
         "id": "a",
-        "text": "Famous for an accidental dance video"
+        "text": "A dance video we shared by mistake"
       },
       {
         "id": "b",
-        "text": "Famous for a terrible cooking experiment"
+        "text": "A meal we cooked that went very wrong"
       }
     ]
   },
@@ -451,7 +451,7 @@
     "id": "tt_029",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose a magical inconvenience.",
+    "text": "Choose a funny problem caused by magic.",
     "options": [
       {
         "id": "a",
@@ -459,7 +459,7 @@
       },
       {
         "id": "b",
-        "text": "Every hug makes nearby lights flicker"
+        "text": "Every hug makes the lights go on and off"
       }
     ]
   },
@@ -467,11 +467,11 @@
     "id": "tt_030",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick an unusual weekend escape.",
+    "text": "Where should we spend a strange weekend?",
     "options": [
       {
         "id": "a",
-        "text": "A castle with dramatic ghosts"
+        "text": "A castle with noisy ghosts"
       },
       {
         "id": "b",
@@ -483,15 +483,15 @@
     "id": "tt_031",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose a minor inconvenience for every date.",
+    "text": "Choose a small problem for every date.",
     "options": [
       {
         "id": "a",
-        "text": "One shoe squeaks at every step"
+        "text": "One shoe makes a noise with every step"
       },
       {
         "id": "b",
-        "text": "Your stomach makes a noise whenever it gets quiet"
+        "text": "Your stomach makes a noise whenever the room is quiet"
       }
     ]
   },
@@ -499,15 +499,15 @@
     "id": "tt_032",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Which embarrassing talent would you rather reveal at a family dinner?",
+    "text": "What silly skill would you show at a family dinner?",
     "options": [
       {
         "id": "a",
-        "text": "A flawless imitation of a broken printer"
+        "text": "Make the exact sound of a broken printer"
       },
       {
         "id": "b",
-        "text": "Knowing every word of a terrible advertising jingle"
+        "text": "Sing every word of a terrible TV advert"
       }
     ]
   },
@@ -515,15 +515,15 @@
     "id": "tt_033",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose a relationship dispute to settle on live television.",
+    "text": "What should we argue about on live TV?",
     "options": [
       {
         "id": "a",
-        "text": "Who loads the dishwasher worse"
+        "text": "Who puts dishes in the dishwasher the wrong way"
       },
       {
         "id": "b",
-        "text": "Who steals more of the blanket"
+        "text": "Who takes more of the blanket"
       }
     ]
   },
@@ -531,15 +531,15 @@
     "id": "tt_034",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Pick the soundtrack for your next awkward entrance.",
+    "text": "Choose music for the next time you enter a room and feel embarrassed.",
     "options": [
       {
         "id": "a",
-        "text": "A heroic fanfare"
+        "text": "Exciting music for a hero"
       },
       {
         "id": "b",
-        "text": "One disappointed trombone"
+        "text": "One sad trumpet"
       }
     ]
   },
@@ -547,15 +547,15 @@
     "id": "tt_035",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Which would you rather accidentally send to the family group chat?",
+    "text": "What would you rather send to the family group chat by mistake?",
     "options": [
       {
         "id": "a",
-        "text": "A dramatic rant about a sandwich"
+        "text": "A long, angry complaint about a sandwich"
       },
       {
         "id": "b",
-        "text": "A voice note of you practicing a fake accent"
+        "text": "A recording of you trying a fake accent"
       }
     ]
   },
@@ -563,15 +563,15 @@
     "id": "tt_036",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose your punishment for losing a friendly bet.",
+    "text": "Choose what you must do if you lose a friendly bet.",
     "options": [
       {
         "id": "a",
-        "text": "Use a royal title for your partner all evening"
+        "text": "Call your partner \"my king\" or \"my queen\" all evening"
       },
       {
         "id": "b",
-        "text": "Narrate your own chores like a wildlife documentary"
+        "text": "Describe your housework like a TV show about wild animals"
       }
     ]
   },
@@ -579,15 +579,15 @@
     "id": "tt_037",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Which useless achievement deserves a trophy?",
+    "text": "Which small success deserves a prize?",
     "options": [
       {
         "id": "a",
-        "text": "Carrying every grocery bag in one trip"
+        "text": "Carry all the shopping bags in one trip"
       },
       {
         "id": "b",
-        "text": "Finding the end of the tape on the first attempt"
+        "text": "Find the end of the sticky tape on your first try"
       }
     ]
   },
@@ -595,15 +595,15 @@
     "id": "tt_038",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Pick a restaurant with an unfortunate catch.",
+    "text": "Which restaurant would you choose?",
     "options": [
       {
         "id": "a",
-        "text": "Perfect food, but the waiter gives motivational speeches"
+        "text": "Great food, but the waiter gives long speeches about success"
       },
       {
         "id": "b",
-        "text": "Average food, but your meal arrives on a tiny train"
+        "text": "Normal food, but it arrives on a tiny train"
       }
     ]
   },
@@ -611,7 +611,7 @@
     "id": "tt_039",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Choose a mildly cursed morning.",
+    "text": "Choose a strange morning.",
     "options": [
       {
         "id": "a",
@@ -619,7 +619,7 @@
       },
       {
         "id": "b",
-        "text": "Your mirror asks whether that is really your outfit"
+        "text": "Your mirror asks, \"Are you really wearing that?\""
       }
     ]
   },
@@ -627,15 +627,15 @@
     "id": "tt_040",
     "mode": "this_or_that",
     "pack": "fun",
-    "text": "Which habit would you rather have exposed in a documentary about us?",
+    "text": "Which habit would you rather show in a film about us?",
     "options": [
       {
         "id": "a",
-        "text": "Our conversations with household appliances"
+        "text": "How we talk to machines at home"
       },
       {
         "id": "b",
-        "text": "How many times we open the fridge without taking anything"
+        "text": "How often we open the fridge and take nothing"
       }
     ]
   },
@@ -643,15 +643,15 @@
     "id": "tt_041",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose a new rule of gravity in our home.",
+    "text": "Choose a strange new rule in our home.",
     "options": [
       {
         "id": "a",
-        "text": "Socks float to the ceiling"
+        "text": "Socks float up to the ceiling"
       },
       {
         "id": "b",
-        "text": "Every dropped spoon lands in another room"
+        "text": "Every spoon you drop lands in another room"
       }
     ]
   },
@@ -659,15 +659,15 @@
     "id": "tt_042",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose an unexpected responsibility.",
+    "text": "Choose a strange new job.",
     "options": [
       {
         "id": "a",
-        "text": "Manage a hotel exclusively for ghosts"
+        "text": "Run a hotel just for ghosts"
       },
       {
         "id": "b",
-        "text": "Run a daycare for retired supervillains"
+        "text": "Look after old supervillains during the day"
       }
     ]
   },
@@ -675,15 +675,15 @@
     "id": "tt_043",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick the condition attached to a free mansion.",
+    "text": "Choose the rule that comes with a free, huge house.",
     "options": [
       {
         "id": "a",
-        "text": "A goose inspects every visitor"
+        "text": "A goose checks every visitor"
       },
       {
         "id": "b",
-        "text": "A brass band announces every delivery"
+        "text": "A band plays loudly for every delivery"
       }
     ]
   },
@@ -691,7 +691,7 @@
     "id": "tt_044",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose a replacement for our doorbell.",
+    "text": "What should replace our doorbell?",
     "options": [
       {
         "id": "a",
@@ -699,7 +699,7 @@
       },
       {
         "id": "b",
-        "text": "A voice that says \"The plot thickens\""
+        "text": "A voice saying, \"Things just got interesting\""
       }
     ]
   },
@@ -707,15 +707,15 @@
     "id": "tt_045",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Which absurd legal obligation would you accept?",
+    "text": "Choose a silly new law.",
     "options": [
       {
         "id": "a",
-        "text": "Defend every food opinion in a tiny court"
+        "text": "Explain all your food opinions in a tiny court"
       },
       {
         "id": "b",
-        "text": "File paperwork before making a sarcastic comment"
+        "text": "Fill in a form before you make a joke about someone"
       }
     ]
   },
@@ -723,15 +723,15 @@
     "id": "tt_046",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick a magical kitchen problem.",
+    "text": "Choose a magical kitchen problem.",
     "options": [
       {
         "id": "a",
-        "text": "The fridge offers unsolicited relationship advice"
+        "text": "The fridge gives love advice you never asked for"
       },
       {
         "id": "b",
-        "text": "The oven refuses to cook without applause"
+        "text": "The oven only cooks if you clap for it"
       }
     ]
   },
@@ -739,15 +739,15 @@
     "id": "tt_047",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose our transportation for a very formal event.",
+    "text": "How should we arrive at a very fancy party?",
     "options": [
       {
         "id": "a",
-        "text": "An enormous shopping cart"
+        "text": "In a huge shopping cart"
       },
       {
         "id": "b",
-        "text": "A carriage pulled by judgmental capybaras"
+        "text": "In a carriage pulled by animals that judge our clothes"
       }
     ]
   },
@@ -755,15 +755,15 @@
     "id": "tt_048",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Pick the object that suddenly becomes sentient.",
+    "text": "Which object should suddenly be able to think and talk?",
     "options": [
       {
         "id": "a",
-        "text": "The laundry basket that has seen too much"
+        "text": "The laundry basket that knows all our secrets"
       },
       {
         "id": "b",
-        "text": "The sofa that remembers every nap"
+        "text": "The sofa that remembers every time we slept on it"
       }
     ]
   },
@@ -771,15 +771,15 @@
     "id": "tt_049",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Choose a strange form of telepathy.",
+    "text": "Choose a way to read your partner's mind.",
     "options": [
       {
         "id": "a",
-        "text": "Hear your partner's inner theme music"
+        "text": "Hear music that matches their thoughts"
       },
       {
         "id": "b",
-        "text": "See subtitles for your partner's dreams"
+        "text": "Read their dreams as words on a screen"
       }
     ]
   },
@@ -787,15 +787,15 @@
     "id": "tt_050",
     "mode": "this_or_that",
     "pack": "chaotic",
-    "text": "Which absurd competition should we enter as a team?",
+    "text": "Which silly contest should we enter together?",
     "options": [
       {
         "id": "a",
-        "text": "Competitive hiding from responsibilities"
+        "text": "Hide from jobs we need to do"
       },
       {
         "id": "b",
-        "text": "Speed-running a badly explained board game"
+        "text": "Finish a board game fast without clear rules"
       }
     ]
   },
@@ -803,15 +803,15 @@
     "id": "tt_051",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Pick a flirty way to start date night.",
+    "text": "How should we start a flirty date night?",
     "options": [
       {
         "id": "a",
-        "text": "A daring compliment whispered at the door"
+        "text": "Whisper a sexy compliment at the door"
       },
       {
         "id": "b",
-        "text": "A kiss before either of us says hello"
+        "text": "Kiss before we say hello"
       }
     ]
   },
@@ -819,15 +819,15 @@
     "id": "tt_052",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Choose the mood for an evening alone.",
+    "text": "Choose an evening alone together.",
     "options": [
       {
         "id": "a",
-        "text": "Slow music and lingering eye contact"
+        "text": "Slow music and long looks into each other's eyes"
       },
       {
         "id": "b",
-        "text": "Playful teasing and a ridiculous dare"
+        "text": "Playful jokes and a silly challenge"
       }
     ]
   },
@@ -835,15 +835,15 @@
     "id": "tt_053",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Which would distract you more across a crowded room?",
+    "text": "What would get your attention across a busy room?",
     "options": [
       {
         "id": "a",
-        "text": "Your partner mouthing \"later\""
+        "text": "Your partner silently saying \"later\" with their lips"
       },
       {
         "id": "b",
-        "text": "Your partner sending a private compliment"
+        "text": "Your partner sending you a sexy compliment"
       }
     ]
   },
@@ -851,15 +851,15 @@
     "id": "tt_054",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Choose a grown-up date-night dress code.",
+    "text": "What should we wear for an adult date night?",
     "options": [
       {
         "id": "a",
-        "text": "Dress up as if we have somewhere glamorous to go"
+        "text": "Fancy clothes, as if we were going to a big party"
       },
       {
         "id": "b",
-        "text": "Stay home in whatever makes us feel most attractive"
+        "text": "Whatever makes us feel sexy at home"
       }
     ]
   },
@@ -867,15 +867,15 @@
     "id": "tt_055",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Pick a reward for winning a flirty challenge.",
+    "text": "Choose a prize for winning a flirty challenge.",
     "options": [
       {
         "id": "a",
-        "text": "Choose the next kiss location, somewhere private"
+        "text": "Choose a private place for our next kiss"
       },
       {
         "id": "b",
-        "text": "Receive three very specific compliments"
+        "text": "Get three compliments about things your partner loves about you"
       }
     ]
   },
@@ -883,15 +883,15 @@
     "id": "tt_056",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Choose a moment you would happily stretch out.",
+    "text": "Which moment would you like to make longer?",
     "options": [
       {
         "id": "a",
-        "text": "The anticipation before a kiss"
+        "text": "The excitement just before a kiss"
       },
       {
         "id": "b",
-        "text": "The quiet cuddle afterward"
+        "text": "Holding each other quietly after a kiss"
       }
     ]
   },
@@ -899,15 +899,15 @@
     "id": "tt_057",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Pick a playful rule for our evening alone.",
+    "text": "Choose a playful rule for an evening alone.",
     "options": [
       {
         "id": "a",
-        "text": "Every compliment must be delivered with eye contact"
+        "text": "Look into each other's eyes for every compliment"
       },
       {
         "id": "b",
-        "text": "Every cheesy pickup line earns a kiss if we both want one"
+        "text": "A silly flirty line earns a kiss if we both want one"
       }
     ]
   },
@@ -915,15 +915,15 @@
     "id": "tt_058",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Which kind of chemistry gets you first?",
+    "text": "What attracts you first?",
     "options": [
       {
         "id": "a",
-        "text": "A confident sense of humor"
+        "text": "Someone who tells jokes with confidence"
       },
       {
         "id": "b",
-        "text": "A voice that makes ordinary sentences sound flirty"
+        "text": "A voice that makes normal words sound flirty"
       }
     ]
   },
@@ -931,15 +931,15 @@
     "id": "tt_059",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Choose a private role-play for a date.",
+    "text": "Choose a pretend story for a private date.",
     "options": [
       {
         "id": "a",
-        "text": "Pretend we are meeting for the first time"
+        "text": "We are meeting for the first time"
       },
       {
         "id": "b",
-        "text": "Pretend we are old flames running into each other"
+        "text": "We dated years ago and are meeting again"
       }
     ]
   },
@@ -947,15 +947,15 @@
     "id": "tt_060",
     "mode": "this_or_that",
     "pack": "spicy",
-    "text": "Pick a way to say \"you have my attention\".",
+    "text": "How would you show your partner they have all your attention?",
     "options": [
       {
         "id": "a",
-        "text": "Pull your partner closer for a dance"
+        "text": "Hold them closer for a dance"
       },
       {
         "id": "b",
-        "text": "Put the phones away and let the silence get interesting"
+        "text": "Put the phones away and enjoy a quiet moment together"
       }
     ]
   },
@@ -963,15 +963,15 @@
     "id": "tt_061",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Choose an embarrassing detail in your obituary.",
+    "text": "Choose an embarrassing detail for the notice about your death.",
     "options": [
       {
         "id": "a",
-        "text": "Your screen-time report"
+        "text": "How much time you spent on your phone"
       },
       {
         "id": "b",
-        "text": "Your unfinished online shopping carts"
+        "text": "Everything you left in online shopping baskets"
       }
     ]
   },
@@ -979,15 +979,15 @@
     "id": "tt_062",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Pick the annoying feature of your afterlife.",
+    "text": "Choose an annoying part of life after death.",
     "options": [
       {
         "id": "a",
-        "text": "Mandatory team-building every Monday"
+        "text": "Team games you must join every Monday"
       },
       {
         "id": "b",
-        "text": "Eternal hold music between every conversation"
+        "text": "Phone waiting music between every conversation, forever"
       }
     ]
   },
@@ -995,15 +995,15 @@
     "id": "tt_063",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Choose how you would haunt a terrible landlord.",
+    "text": "You are a ghost. How would you annoy a terrible landlord?",
     "options": [
       {
         "id": "a",
-        "text": "Move every key two centimeters to the left"
+        "text": "Move all the keys two centimeters to the left"
       },
       {
         "id": "b",
-        "text": "Make every printer demand a subscription"
+        "text": "Make every printer ask for a monthly payment"
       }
     ]
   },
@@ -1011,15 +1011,15 @@
     "id": "tt_064",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Pick your final review of existence.",
+    "text": "Choose your final review of life.",
     "options": [
       {
         "id": "a",
-        "text": "Great snacks, questionable management"
+        "text": "Great snacks, bad bosses"
       },
       {
         "id": "b",
-        "text": "Interesting concept, too many mandatory side quests"
+        "text": "Interesting idea, too many jobs I never asked for"
       }
     ]
   },
@@ -1027,15 +1027,15 @@
     "id": "tt_065",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Choose a budget funeral upgrade.",
+    "text": "Choose a cheap extra for your funeral.",
     "options": [
       {
         "id": "a",
-        "text": "A smoke machine with terrible timing"
+        "text": "A smoke machine that starts at the wrong time"
       },
       {
         "id": "b",
-        "text": "A slideshow that accidentally includes memes"
+        "text": "A photo show that includes internet jokes by mistake"
       }
     ]
   },
@@ -1043,15 +1043,15 @@
     "id": "tt_066",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Pick your apocalypse notification.",
+    "text": "How should you learn that the world is ending?",
     "options": [
       {
         "id": "a",
-        "text": "A calendar invite marked \"attendance required\""
+        "text": "A calendar invitation saying \"You must come\""
       },
       {
         "id": "b",
-        "text": "A software update with no option to postpone"
+        "text": "A software update you cannot delay"
       }
     ]
   },
@@ -1059,15 +1059,15 @@
     "id": "tt_067",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Choose a condition in a deal with the devil.",
+    "text": "Choose a deal with the devil.",
     "options": [
       {
         "id": "a",
-        "text": "Great wealth, but every purchase gets narrated aloud"
+        "text": "Be rich, but a loud voice announces everything you buy"
       },
       {
         "id": "b",
-        "text": "Eternal youth, but everyone assumes you are the intern"
+        "text": "Stay young forever, but everyone thinks you are new at work"
       }
     ]
   },
@@ -1075,15 +1075,15 @@
     "id": "tt_068",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Pick your job in the underworld.",
+    "text": "Choose your job in hell.",
     "options": [
       {
         "id": "a",
-        "text": "Handle complaints from villains who feel misunderstood"
+        "text": "Listen to villains complain that nobody understands them"
       },
       {
         "id": "b",
-        "text": "Write cheerful marketing copy for eternal misery"
+        "text": "Write happy adverts for a place where everyone is sad forever"
       }
     ]
   },
@@ -1091,15 +1091,15 @@
     "id": "tt_069",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Choose a ridiculous cause of your fictional downfall.",
+    "text": "In a movie, which mistake would lead to your terrible end?",
     "options": [
       {
         "id": "a",
-        "text": "Trusting the tutorial narrator"
+        "text": "Trust the voice that explains the rules"
       },
       {
         "id": "b",
-        "text": "Saying \"what is the worst that could happen?\""
+        "text": "Say \"What could go wrong?\""
       }
     ]
   },
@@ -1107,15 +1107,15 @@
     "id": "tt_070",
     "mode": "this_or_that",
     "pack": "dark_humor",
-    "text": "Choose the inscription on our imaginary haunted house.",
+    "text": "Choose a sign for our imaginary house full of ghosts.",
     "options": [
       {
         "id": "a",
-        "text": "Still arguing about the thermostat"
+        "text": "Still arguing about the room temperature"
       },
       {
         "id": "b",
-        "text": "Please leave parcels with the living neighbors"
+        "text": "Please leave packages with the neighbors who are still alive"
       }
     ]
   }

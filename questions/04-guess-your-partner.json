@@ -9,19 +9,19 @@
     "id": "gp_002",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What is {name}'s ideal way to spend a completely free afternoon?"
+    "text": "How would {name} spend a free afternoon?"
   },
   {
     "id": "gp_003",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What movie or series could {name} happily watch again?"
+    "text": "What movie or TV series would {name} happily watch again?"
   },
   {
     "id": "gp_004",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What snack would {name} secretly hope you brought home?"
+    "text": "What snack would {name} love you to bring home?"
   },
   {
     "id": "gp_005",
@@ -33,43 +33,43 @@
     "id": "gp_006",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What household chore would {name} most gladly outsource?"
+    "text": "What job at home would {name} pay someone else to do?"
   },
   {
     "id": "gp_007",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What song would {name} pick to improve their mood?"
+    "text": "What song would {name} choose to feel happier?"
   },
   {
     "id": "gp_008",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What small thing is most likely to annoy {name} during a trip?"
+    "text": "What small thing would annoy {name} during a trip?"
   },
   {
     "id": "gp_009",
     "mode": "guess_partner",
     "pack": "cute",
-    "text": "What simple gesture makes {name} feel especially appreciated?"
+    "text": "What small thing can you do to make {name} feel loved?"
   },
   {
     "id": "gp_010",
     "mode": "guess_partner",
     "pack": "cute",
-    "text": "What would {name} include in their ideal cozy evening together?"
+    "text": "What would {name} want for a relaxing evening together?"
   },
   {
     "id": "gp_011",
     "mode": "guess_partner",
     "pack": "cute",
-    "text": "What inexpensive surprise would make {name} smile?"
+    "text": "What cheap surprise would make {name} smile?"
   },
   {
     "id": "gp_012",
     "mode": "guess_partner",
     "pack": "cute",
-    "text": "What compliment would {name} most enjoy hearing?"
+    "text": "What nice thing would {name} most like you to say about them?"
   },
   {
     "id": "gp_013",
@@ -81,37 +81,37 @@
     "id": "gp_014",
     "mode": "guess_partner",
     "pack": "deep",
-    "text": "What quality does {name} value most in a close relationship?"
+    "text": "What matters most to {name} in a close relationship?"
   },
   {
     "id": "gp_015",
     "mode": "guess_partner",
     "pack": "deep",
-    "text": "What helps {name} feel supported when they are overwhelmed?"
+    "text": "What helps {name} when everything feels too difficult?"
   },
   {
     "id": "gp_016",
     "mode": "guess_partner",
     "pack": "deep",
-    "text": "What personal achievement is {name} especially proud of?"
+    "text": "What has {name} done that makes them feel proud?"
   },
   {
     "id": "gp_017",
     "mode": "guess_partner",
     "pack": "deep",
-    "text": "What is one skill {name} wishes they could learn more easily?"
+    "text": "What skill would {name} like to learn more easily?"
   },
   {
     "id": "gp_018",
     "mode": "guess_partner",
     "pack": "deep",
-    "text": "What everyday situation makes {name} feel most confident?"
+    "text": "When does {name} feel most sure of themselves in daily life?"
   },
   {
     "id": "gp_019",
     "mode": "guess_partner",
     "pack": "memories",
-    "text": "What shared memory would {name} most like to relive?"
+    "text": "What happy moment together would {name} like to enjoy again?"
   },
   {
     "id": "gp_020",
@@ -123,205 +123,205 @@
     "id": "gp_021",
     "mode": "guess_partner",
     "pack": "memories",
-    "text": "Which trip or outing together stands out most to {name}?"
+    "text": "Which of our trips or days out does {name} remember most?"
   },
   {
     "id": "gp_022",
     "mode": "guess_partner",
     "pack": "memories",
-    "text": "What funny moment between us would {name} mention first?"
+    "text": "What funny moment between us would {name} talk about first?"
   },
   {
     "id": "gp_023",
     "mode": "guess_partner",
     "pack": "memories",
-    "text": "What place feels especially meaningful to {name} because of us?"
+    "text": "What place is special to {name} because of our time there together?"
   },
   {
     "id": "gp_024",
     "mode": "guess_partner",
     "pack": "future",
-    "text": "What destination is highest on {name}'s travel wish list?"
+    "text": "What place does {name} most want to visit?"
   },
   {
     "id": "gp_025",
     "mode": "guess_partner",
     "pack": "future",
-    "text": "What feature would {name} most want in a future home?"
+    "text": "What would {name} most want in a future home?"
   },
   {
     "id": "gp_026",
     "mode": "guess_partner",
     "pack": "future",
-    "text": "What shared activity would {name} like us to do more often?"
+    "text": "What would {name} like us to do together more often?"
   },
   {
     "id": "gp_027",
     "mode": "guess_partner",
     "pack": "future",
-    "text": "What would {name} choose as a small goal for the next month?"
+    "text": "What small goal would {name} choose for next month?"
   },
   {
     "id": "gp_028",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What completely useless superpower would {name} still enjoy having?"
+    "text": "What useless superpower would {name} still enjoy having?"
   },
   {
     "id": "gp_029",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What ridiculous item would {name} buy if it cost almost nothing?"
+    "text": "What silly thing would {name} buy if it was very cheap?"
   },
   {
     "id": "gp_030",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What fictional world would {name} visit for one day?"
+    "text": "What world from a book, movie, or game would {name} visit for one day?"
   },
   {
     "id": "gp_031",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What tiny inconvenience would make {name} deliver a full courtroom speech?"
+    "text": "What tiny problem would make {name} give a long, serious speech?"
   },
   {
     "id": "gp_032",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What completely ordinary task would {name} insist they could win at professionally?"
+    "text": "What everyday task would {name} say they could win a world contest for?"
   },
   {
     "id": "gp_033",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What would {name} be caught muttering to an uncooperative appliance?"
+    "text": "What would {name} say to a machine at home that refuses to work?"
   },
   {
     "id": "gp_034",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What is {name}'s most predictable excuse for staying in on a Friday?"
+    "text": "What excuse would {name} usually give to stay home on a Friday?"
   },
   {
     "id": "gp_035",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What would the title of a documentary about {name}'s shopping habits be?"
+    "text": "What would a film about {name}'s shopping habits be called?"
   },
   {
     "id": "gp_036",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What harmless habit of mine would {name} roast first at a comedy night?"
+    "text": "Which of my harmless habits would {name} joke about on a comedy show?"
   },
   {
     "id": "gp_037",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What would {name} buy at a supermarket after going in for exactly one item?"
+    "text": "What extra things would {name} buy after going to the supermarket for just one item?"
   },
   {
     "id": "gp_038",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What everyday object does {name} lose and then accuse of hiding?"
+    "text": "What object does {name} often lose and then say is hiding from them?"
   },
   {
     "id": "gp_039",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What would {name}'s signature move be in a dance competition nobody trained for?"
+    "text": "What dance move would {name} use in a contest with no time to practice?"
   },
   {
     "id": "gp_040",
     "mode": "guess_partner",
     "pack": "fun",
-    "text": "What would {name} call a luxury perfume inspired by their usual morning?"
+    "text": "What would {name} call an expensive perfume that smells like their usual morning?"
   },
   {
     "id": "gp_041",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name} demand first if they became mayor of our living room?"
+    "text": "What would {name}'s first order be as the new boss of our living room?"
   },
   {
     "id": "gp_042",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What object would {name} choose to represent humanity at an alien interview?"
+    "text": "What object would {name} show aliens to explain humans?"
   },
   {
     "id": "gp_043",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What ridiculous law would {name} introduce if put in charge of supermarkets?"
+    "text": "What silly rule would {name} make as the boss of all supermarkets?"
   },
   {
     "id": "gp_044",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name} put in an emergency kit for a crisis that does not exist?"
+    "text": "What would {name} pack to prepare for an emergency that could never happen?"
   },
   {
     "id": "gp_045",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name}'s villain origin story be if it started with a minor inconvenience?"
+    "text": "What tiny problem would turn {name} into a movie villain?"
   },
   {
     "id": "gp_046",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name} try to expense after accidentally becoming a secret agent?"
+    "text": "{name} becomes a spy by mistake. What silly thing would they ask their boss to pay for?"
   },
   {
     "id": "gp_047",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name} choose as the official national anthem of our home?"
+    "text": "What song would {name} choose as the official song of our home?"
   },
   {
     "id": "gp_048",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name} ask a talking mirror that only gives sarcastic answers?"
+    "text": "What would {name} ask a talking mirror that makes fun of every question?"
   },
   {
     "id": "gp_049",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name} name a suspiciously powerful duck entrusted to their care?"
+    "text": "What would {name} name a duck with strange, powerful magic?"
   },
   {
     "id": "gp_050",
     "mode": "guess_partner",
     "pack": "chaotic",
-    "text": "What would {name} trade for the ability to skip every awkward goodbye?"
+    "text": "What would {name} give up to never have an uncomfortable goodbye again?"
   },
   {
     "id": "gp_051",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What compliment from me is most likely to make {name} blush?"
+    "text": "What sexy compliment from me would make {name} turn red?"
   },
   {
     "id": "gp_052",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What outfit of mine does {name} find most distracting?"
+    "text": "Which of my clothes does {name} find the sexiest?"
   },
   {
     "id": "gp_053",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What is {name}'s favorite way for me to initiate a kiss?"
+    "text": "How would {name} like me to start a kiss?"
   },
   {
     "id": "gp_054",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What kind of flirty message would make {name} grin at their phone?"
+    "text": "What flirty message would make {name} smile at their phone?"
   },
   {
     "id": "gp_055",
@@ -333,90 +333,90 @@
     "id": "gp_056",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What small gesture tells {name} that a date is about to get more romantic?"
+    "text": "What small thing could I do to show {name} that a date is getting more romantic?"
   },
   {
     "id": "gp_057",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What private setting would {name} choose for a long, unhurried kiss?"
+    "text": "What private place would {name} choose for a long, slow kiss?"
   },
   {
     "id": "gp_058",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What is {name}'s tell when they are trying to act innocent while flirting?"
+    "text": "How can you tell when {name} is flirting but trying to look innocent?"
   },
   {
     "id": "gp_059",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What would {name} choose as a playful reward for winning a flirty bet?"
+    "text": "What prize would {name} want for winning a flirty bet?"
   },
   {
     "id": "gp_060",
     "mode": "guess_partner",
     "pack": "spicy",
-    "text": "What ordinary thing I do does {name} find unexpectedly attractive?"
+    "text": "What normal thing I do does {name} find surprisingly sexy?"
   },
   {
     "id": "gp_061",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What petty inconvenience would {name} inflict on people as a ghost?"
+    "text": "What small, annoying problem would {name} cause for people as a ghost?"
   },
   {
     "id": "gp_062",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What would {name} complain about first in the afterlife?"
+    "text": "What would {name} complain about first in life after death?"
   },
   {
     "id": "gp_063",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What last-minute request would {name} make before the fictional end of the world?"
+    "text": "In a movie, the world is about to end. What would {name} ask for at the last minute?"
   },
   {
     "id": "gp_064",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What ridiculous sentence would {name} put on their own tombstone?"
+    "text": "What silly sentence would {name} put on their own grave?"
   },
   {
     "id": "gp_065",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What would {name} try to negotiate in a contract with the devil?"
+    "text": "What would {name} ask to change in a deal with the devil?"
   },
   {
     "id": "gp_066",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What song would {name} choose to make their own funeral deeply awkward?"
+    "text": "What song would {name} choose to make everyone uncomfortable at their own funeral?"
   },
   {
     "id": "gp_067",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What unfinished task would follow {name} into the afterlife out of pure spite?"
+    "text": "What unfinished job would still bother {name} after death?"
   },
   {
     "id": "gp_068",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What would get {name} fired from a job as the Grim Reaper's assistant?"
+    "text": "{name} gets a job helping Death collect people. What would get them fired?"
   },
   {
     "id": "gp_069",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What would {name} rate humanity out of five stars in a final customer review?"
+    "text": "What score would {name} give humans in a final review, from one to five stars?"
   },
   {
     "id": "gp_070",
     "mode": "guess_partner",
     "pack": "dark_humor",
-    "text": "What minor luxury would {name} refuse to give up even during the apocalypse?"
+    "text": "What small comfort would {name} refuse to lose, even if the world was ending?"
   }
 ]

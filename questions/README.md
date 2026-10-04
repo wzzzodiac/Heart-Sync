@@ -13,7 +13,7 @@ Each file contains an array: an opening `[` and closing `]`, with question objec
 
 ## Current bank: 280 questions
 
-Each mode has 70 questions. IDs 001–030 preserve the original seed exactly; the 40 additions per mode are grouped in this order:
+Each mode has 70 questions. IDs 001–030 come from the original seed; IDs 031–070 are the expansion. All 280 questions have been reviewed for simple A2/B1 English. Wording has changed, but IDs, modes, packs, option IDs, and ordering stay the same. The 40 additions per mode are grouped in this order:
 
 | IDs     | Pack         | Added per mode |
 | ------- | ------------ | -------------- |
@@ -23,6 +23,21 @@ Each mode has 70 questions. IDs 001–030 preserve the original seed exactly; th
 | 061–070 | `dark_humor` | 10             |
 
 For a new question, use the next unused ID (currently 071) and set its `pack`. Adult flirtation belongs in `spicy`; morbid fictional humor belongs in `dark_humor`, so both remain optional. A tag alone does not control selection. Keep questions in English and use fictional or general situations rather than private personal details.
+
+## English level: A2/B1
+
+Write for adults who are learning English. A2/B1 is an editorial target, not a certified language assessment. Keep the humor, romance, and original question idea while making the task easy to understand.
+
+- Use common words and direct questions. Prefer "choose" to "select", "guess" to "predict", and "tell me why" to "make your case".
+- Aim for one short sentence, or two short sentences when a situation needs context. Prefer roughly 8–20 words per sentence; clarity matters more than an exact count.
+- Avoid idioms, slang, legal language, and jokes that require knowledge of a TV show or culture. Explain an unusual fictional situation in plain words.
+- Check both answer options in This or That. They must be as easy to read as the question, and they must keep the same meaning and order.
+- In Convince Me, make the action clear: suggest, describe, explain, or give a reason. Do not use "pitch" or "sell me on it" as instructions.
+- In Guess Your Partner, keep `{name}` exactly. Do not replace it with "you": both players see the same question about the named person.
+- Keep adult and dark humor in their optional packs. Simple English should not remove the theme or turn the game into a children's game.
+- Leave already-clear questions alone. When editing wording, keep IDs and all gameplay fields unchanged.
+
+Examples: "What household chore would {name} most gladly outsource?" becomes "What job at home would {name} pay someone else to do?". "Pitch a low-budget date" becomes "Suggest a cheap date. Explain your idea."
 
 ## Required fields
 
@@ -72,7 +87,7 @@ The backend refuses to start with an invalid bank. Error messages identify inval
   "id": "tt_071",
   "mode": "this_or_that",
   "pack": "cute",
-  "text": "Choose your ideal Sunday breakfast.",
+  "text": "Choose your favorite Sunday breakfast.",
   "options": [
     { "id": "a", "text": "Pancakes at home" },
     { "id": "b", "text": "Breakfast at a cafe" }
@@ -88,7 +103,7 @@ The backend refuses to start with an invalid bank. Error messages identify inval
   "id": "cm_071",
   "mode": "convince_me",
   "pack": "cute",
-  "text": "Pitch a tiny celebration for surviving a difficult Monday.",
+  "text": "Suggest a small way to celebrate after a difficult Monday.",
   "tags": ["daily-life"]
 }
 ```
@@ -100,7 +115,7 @@ The backend refuses to start with an invalid bank. Error messages identify inval
   "id": "gp_071",
   "mode": "guess_partner",
   "pack": "fun",
-  "text": "What dessert would {name} choose from an unlimited menu?",
+  "text": "What dessert would {name} choose if every dessert was available?",
   "tags": ["food"]
 }
 ```

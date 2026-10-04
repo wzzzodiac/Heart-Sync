@@ -3,37 +3,37 @@
     "id": "ml_001",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to fall asleep halfway through a movie?"
+    "text": "Who is more likely to fall asleep during a movie?"
   },
   {
     "id": "ml_002",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to steal fries after saying they are not hungry?"
+    "text": "Who is more likely to take your fries after saying \"I'm not hungry\"?"
   },
   {
     "id": "ml_003",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to get lost while confidently giving directions?"
+    "text": "Who is more likely to get us lost but say they know the way?"
   },
   {
     "id": "ml_004",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to press snooze five times?"
+    "text": "Who is more likely to stop the alarm five times before getting up?"
   },
   {
     "id": "ml_005",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to turn a quick shopping trip into a two-hour adventure?"
+    "text": "Who is more likely to go shopping for one thing and stay for two hours?"
   },
   {
     "id": "ml_006",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to laugh at their own joke before finishing it?"
+    "text": "Who is more likely to laugh before they finish telling a joke?"
   },
   {
     "id": "ml_007",
@@ -51,13 +51,13 @@
     "id": "ml_009",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to forget why they walked into a room?"
+    "text": "Who is more likely to enter a room and forget why?"
   },
   {
     "id": "ml_010",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to say \"one more game\" and mean five more games?"
+    "text": "Who is more likely to say \"one more game\" and then play five more?"
   },
   {
     "id": "ml_011",
@@ -69,7 +69,7 @@
     "id": "ml_012",
     "mode": "most_likely",
     "pack": "cute",
-    "text": "Who is more likely to keep a tiny souvenir from a date?"
+    "text": "Who is more likely to keep a small object to remember a date?"
   },
   {
     "id": "ml_013",
@@ -81,49 +81,49 @@
     "id": "ml_014",
     "mode": "most_likely",
     "pack": "cute",
-    "text": "Who is more likely to send a sweet message for no particular reason?"
+    "text": "Who is more likely to send a sweet message for no reason?"
   },
   {
     "id": "ml_015",
     "mode": "most_likely",
     "pack": "cute",
-    "text": "Who is more likely to turn an ordinary evening into a special one?"
+    "text": "Who is more likely to make a normal evening feel special?"
   },
   {
     "id": "ml_016",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to become emotionally attached to a robot vacuum?"
+    "text": "Who is more likely to love our robot cleaner like a pet?"
   },
   {
     "id": "ml_017",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to try to befriend a suspicious animal?"
+    "text": "Who is more likely to make friends with a strange animal?"
   },
   {
     "id": "ml_018",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to accidentally start a kitchen experiment that cannot be reversed?"
+    "text": "Who is more likely to try a new recipe and make a huge mess?"
   },
   {
     "id": "ml_019",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to survive a zombie outbreak using pure luck?"
+    "text": "Who is more likely to survive a zombie attack just because they are lucky?"
   },
   {
     "id": "ml_020",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to buy a ridiculous matching outfit for both of us?"
+    "text": "Who is more likely to buy silly matching clothes for us?"
   },
   {
     "id": "ml_021",
     "mode": "most_likely",
     "pack": "memories",
-    "text": "Who is more likely to remember the exact details of our first date?"
+    "text": "Who is more likely to remember every detail of our first date?"
   },
   {
     "id": "ml_022",
@@ -135,19 +135,19 @@
     "id": "ml_023",
     "mode": "most_likely",
     "pack": "memories",
-    "text": "Who is more likely to recognize a song linked to one of our memories?"
+    "text": "Who is more likely to hear a song and remember a moment we shared?"
   },
   {
     "id": "ml_024",
     "mode": "most_likely",
     "pack": "memories",
-    "text": "Who is more likely to retell one of our embarrassing stories?"
+    "text": "Who is more likely to tell a story about an embarrassing moment we shared?"
   },
   {
     "id": "ml_025",
     "mode": "most_likely",
     "pack": "memories",
-    "text": "Who is more likely to remember what we ordered on a special date?"
+    "text": "Who is more likely to remember what we ate on a special date?"
   },
   {
     "id": "ml_026",
@@ -159,264 +159,264 @@
     "id": "ml_027",
     "mode": "most_likely",
     "pack": "future",
-    "text": "Who is more likely to turn a future home into a jungle of houseplants?"
+    "text": "Who is more likely to fill our future home with plants?"
   },
   {
     "id": "ml_028",
     "mode": "most_likely",
     "pack": "future",
-    "text": "Who is more likely to research every detail before a big purchase?"
+    "text": "Who is more likely to check every detail before buying something expensive?"
   },
   {
     "id": "ml_029",
     "mode": "most_likely",
     "pack": "future",
-    "text": "Who is more likely to suggest a new tradition for us?"
+    "text": "Who is more likely to suggest something special we can do every year?"
   },
   {
     "id": "ml_030",
     "mode": "most_likely",
     "pack": "future",
-    "text": "Who is more likely to convince the other to try a completely new hobby?"
+    "text": "Who is more likely to get the other person to try a new hobby?"
   },
   {
     "id": "ml_031",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to lose an argument to an automated checkout machine?"
+    "text": "Who is more likely to argue with a machine at the supermarket?"
   },
   {
     "id": "ml_032",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to rehearse a phone call and still say the wrong thing?"
+    "text": "Who is more likely to practice a phone call and still say the wrong thing?"
   },
   {
     "id": "ml_033",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to wave back at someone who was waving at the person behind them?"
+    "text": "Who is more likely to wave at someone who was waving at someone else?"
   },
   {
     "id": "ml_034",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to claim a chair with a pile of clothes and call it organization?"
+    "text": "Who is more likely to leave clothes on a chair and call it \"tidy\"?"
   },
   {
     "id": "ml_035",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to accidentally turn on the front camera and get personally offended?"
+    "text": "Who is more likely to open the phone camera and get upset by their own face?"
   },
   {
     "id": "ml_036",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to say \"I know a shortcut\" just before making us late?"
+    "text": "Who is more likely to say \"I know a faster way\" and make us late?"
   },
   {
     "id": "ml_037",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to develop a personal rivalry with a contestant on a cooking show?"
+    "text": "Who is more likely to get angry at a person in a TV cooking contest?"
   },
   {
     "id": "ml_038",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to spend longer choosing a delivery order than the restaurant spends cooking it?"
+    "text": "Who is more likely to take longer to choose a meal than the cook takes to make it?"
   },
   {
     "id": "ml_039",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to wear something inside out and defend it as a style choice?"
+    "text": "Who is more likely to wear a shirt inside out and call it fashion?"
   },
   {
     "id": "ml_040",
     "mode": "most_likely",
     "pack": "fun",
-    "text": "Who is more likely to provide dramatic commentary while the other parallel-parks?"
+    "text": "Who is more likely to describe the other's parking like a football match?"
   },
   {
     "id": "ml_041",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to get elected leader of a cult by misunderstanding a group chat?"
+    "text": "Who is more likely to join a strange group by mistake and become its leader?"
   },
   {
     "id": "ml_042",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to challenge a goose for the right to use a public path?"
+    "text": "Who is more likely to argue with a goose that blocks the path?"
   },
   {
     "id": "ml_043",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to agree to a side quest from a stranger dressed as a wizard?"
+    "text": "Who is more likely to accept a secret task from a stranger dressed as a wizard?"
   },
   {
     "id": "ml_044",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to buy a fog machine for an occasion that absolutely does not need one?"
+    "text": "Who is more likely to buy a smoke machine for a normal dinner?"
   },
   {
     "id": "ml_045",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to invent a conspiracy theory about the missing socks?"
+    "text": "Who is more likely to invent a secret evil plan to explain our missing socks?"
   },
   {
     "id": "ml_046",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to name a Wi-Fi network just to annoy the neighbors?"
+    "text": "Who is more likely to choose a Wi-Fi name just to annoy the neighbors?"
   },
   {
     "id": "ml_047",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to end up in a local news story involving an inflatable dinosaur?"
+    "text": "Who is more likely to appear on the local news in a giant dinosaur costume?"
   },
   {
     "id": "ml_048",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to bargain with a vending machine as if it understands emotions?"
+    "text": "Who is more likely to beg a snack machine to give them food?"
   },
   {
     "id": "ml_049",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to start a fake rivalry with the couple across the street?"
+    "text": "Who is more likely to pretend the couple across the street are our enemies?"
   },
   {
     "id": "ml_050",
     "mode": "most_likely",
     "pack": "chaotic",
-    "text": "Who is more likely to turn assembling flat-pack furniture into a constitutional crisis?"
+    "text": "Who is more likely to turn building a new chair into a huge family argument?"
   },
   {
     "id": "ml_051",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to turn an innocent compliment into shameless flirting?"
+    "text": "Who is more likely to turn \"You look nice\" into very obvious flirting?"
   },
   {
     "id": "ml_052",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to initiate a kiss while we are supposed to be getting ready to leave?"
+    "text": "Who is more likely to start kissing when we need to leave?"
   },
   {
     "id": "ml_053",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to send a suggestive message and then act completely innocent?"
+    "text": "Who is more likely to send a sexy message and then act innocent?"
   },
   {
     "id": "ml_054",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to wear an outfit specifically to distract the other person?"
+    "text": "Who is more likely to wear something just to get the other's attention?"
   },
   {
     "id": "ml_055",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to forget the plot because cuddling got distracting?"
+    "text": "Who is more likely to miss the movie because they are busy kissing and hugging?"
   },
   {
     "id": "ml_056",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to make the other blush with just a look across the room?"
+    "text": "Who is more likely to make the other turn red with just a look?"
   },
   {
     "id": "ml_057",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to suggest we recreate our first kiss?"
+    "text": "Who is more likely to suggest kissing like we did the first time?"
   },
   {
     "id": "ml_058",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to invent an excuse for five more minutes alone together?"
+    "text": "Who is more likely to find an excuse for five more minutes alone together?"
   },
   {
     "id": "ml_059",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to start a flirty bet they are secretly hoping to lose?"
+    "text": "Who is more likely to make a bet with a kiss as the prize and hope to lose?"
   },
   {
     "id": "ml_060",
     "mode": "most_likely",
     "pack": "spicy",
-    "text": "Who is more likely to be confident over text and suddenly shy face to face?"
+    "text": "Who is more likely to be bold in messages but shy in person?"
   },
   {
     "id": "ml_061",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to leave a one-star review of their own funeral?"
+    "text": "Who is more likely to give their own funeral a one-star review?"
   },
   {
     "id": "ml_062",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to haunt someone over an unpaid ten-euro debt?"
+    "text": "Who is more likely to become a ghost and bother someone who owes them ten euros?"
   },
   {
     "id": "ml_063",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to ask whether the apocalypse counts as a valid excuse to miss work?"
+    "text": "Who is more likely to ask if they can miss work when the world ends?"
   },
   {
     "id": "ml_064",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to negotiate with the Grim Reaper using loyalty points?"
+    "text": "Who is more likely to offer Death their shopping points for more time to live?"
   },
   {
     "id": "ml_065",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to get kicked out of the afterlife for questioning the management?"
+    "text": "Who is more likely to be sent away from heaven for complaining about the boss?"
   },
   {
     "id": "ml_066",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to write an obituary that sounds suspiciously like a dating profile?"
+    "text": "Who is more likely to write their death notice like a dating profile?"
   },
   {
     "id": "ml_067",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to make a nervous joke at a funeral and regret it immediately?"
+    "text": "Who is more likely to make a nervous joke at a funeral and feel bad right away?"
   },
   {
     "id": "ml_068",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to ask for a receipt after selling their soul?"
+    "text": "Who is more likely to sell their soul and ask for a receipt?"
   },
   {
     "id": "ml_069",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to have their search history presented as evidence against them in the afterlife?"
+    "text": "Who is more likely to reach heaven and be asked to explain their internet searches?"
   },
   {
     "id": "ml_070",
     "mode": "most_likely",
     "pack": "dark_humor",
-    "text": "Who is more likely to survive a horror film only to get injured during the victory dance?"
+    "text": "Who is more likely to survive a horror movie, then get hurt doing a victory dance?"
   }
 ]

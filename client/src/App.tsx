@@ -1099,8 +1099,8 @@ function Round({
         {q.mode === "guess_partner" && (
           <p className="role-note">
             {s.targetId === s.selfId
-              ? "Your role: answer about yourself. Then you’ll judge the prediction."
-              : `Your role: predict ${s.players.find((p) => p.id === s.targetId)!.label}’s answer.`}
+              ? "Answer about yourself. Later, decide if your partner guessed correctly."
+              : `Guess ${s.players.find((p) => p.id === s.targetId)!.label}’s answer.`}
           </p>
         )}
         {s.phase === "countdown" ? (
@@ -1160,7 +1160,7 @@ function Round({
                 </label>
                 <textarea
                   id="answer"
-                  placeholder="A little thought goes a long way…"
+                  placeholder="Write your answer here…"
                   maxLength={500}
                   value={draft}
                   onChange={(e) => setDraft(e.target.value)}
@@ -1267,8 +1267,8 @@ function Round({
                 )}
                 <p className="fine-print">
                   {q.mode === "convince_me"
-                    ? "Judge only your partner’s answer. Votes are revealed together."
-                    : "The person being guessed makes the call. No automatic matching."}
+                    ? "Vote only on your partner’s answer. Both votes appear together."
+                    : "The person who answered about themselves decides if the guess is correct."}
                 </p>
               </div>
             )}
