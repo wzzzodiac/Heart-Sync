@@ -1,4 +1,5 @@
 import { randomBytes, randomInt, randomUUID } from "node:crypto";
+import { isDeepStrictEqual } from "node:util";
 import {
   DEFAULT_SETTINGS,
   MODES,
@@ -114,6 +115,7 @@ interface Player {
   socketId: string | null;
   disconnectedAt: number | null;
   ready: boolean;
+  lastSyncAt: number;
   cache: Map<string, { fingerprint: string; ack: Ack }>;
 }
 interface Round {
@@ -204,6 +206,7 @@ export class Engine {
       socketId,
       disconnectedAt: null,
       ready: false,
+      lastSyncAt: -Infinity,
       cache: new Map(),
     };
   }
@@ -467,7 +470,7 @@ export class Engine {
               payload.code === found.room.code,
             "Already in a room.",
           );
-          this.emit(found.room);
+          this.sync(found.room, found.player);
           return this.session(found.room, found.player);
         }
         let room: Room;
@@ -562,11 +565,11 @@ export class Engine {
           cached.fingerprint === fingerprint,
           "Request ID already used.",
         );
-        this.emit(room);
+        this.sync(room, player);
         return cached.ack;
       }
       if (cmd.type === "sync") {
-        this.emit(room);
+        this.sync(room, player);
         return { ok: true };
       }
       if (cmd.type === "leave") {
@@ -581,6 +584,7 @@ export class Engine {
         "This action belongs to an earlier phase.",
         "STALE",
       );
+      let changed = true;
       switch (cmd.type) {
         case "settings":
           requireThat(
@@ -588,6 +592,10 @@ export class Engine {
             "Only the host can change lobby settings.",
           );
           validateSettings(payload.settings);
+          if (isDeepStrictEqual(room.settings, payload.settings)) {
+            changed = false;
+            break;
+          }
           room.settings = structuredClone(payload.settings);
           this.invalidate(room);
           break;
@@ -606,6 +614,10 @@ export class Engine {
             requireThat(!ids.has(q.id), "Duplicate room question ID.");
             ids.add(q.id);
           }
+          if (isDeepStrictEqual(room.custom, payload.questions)) {
+            changed = false;
+            break;
+          }
           room.custom = structuredClone(payload.questions) as Question[];
           this.invalidate(room);
           break;
@@ -615,6 +627,7 @@ export class Engine {
             room.phase === "lobby" && typeof payload.ready === "boolean",
             "Invalid ready action.",
           );
+          changed = player.ready !== payload.ready;
           player.ready = payload.ready;
           break;
         case "start":
@@ -692,6 +705,7 @@ export class Engine {
             room.phase === "answering",
             "Skip is only available while answering.",
           );
+          changed = !room.round!.skip.has(player.id);
           room.round!.skip.add(player.id);
           if (room.round!.skip.size === 2) this.finishRound(room, "skipped");
           break;
@@ -700,6 +714,7 @@ export class Engine {
             room.phase === "round_result",
             "Wait for the round result.",
           );
+          changed = !room.round!.continued.has(player.id);
           room.round!.continued.add(player.id);
           if (room.players.every((p) => room.round!.continued.has(p.id))) {
             room.index++;
@@ -726,12 +741,12 @@ export class Engine {
         default:
           throw new GameError("Unknown command.");
       }
-      room.lastActivity = this.now();
+      if (changed) room.lastActivity = this.now();
       const ack: Ack = { ok: true };
       player.cache.set(cmd.requestId, { fingerprint, ack });
       if (player.cache.size > 200)
         player.cache.delete(player.cache.keys().next().value!);
-      this.emit(room);
+      if (changed) this.emit(room);
       return ack;
     } catch (error) {
       return {
@@ -854,6 +869,13 @@ export class Engine {
       finalMessage: room.finalMessage,
       notice: room.notice,
     };
+  }
+  private sync(room: Room, player: Player) {
+    const now = this.now();
+    if (player.socketId && now - player.lastSyncAt >= 1000) {
+      player.lastSyncAt = now;
+      this.onChange(player.socketId, this.snapshot(room, player));
+    }
   }
   emit(room: Room) {
     for (const p of room.players)
